@@ -7,263 +7,263 @@ X-WR-CALNAME:Festival Supplement for iOS Calendar
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
 UID:clean-energy-day@festival-calendar
-DTSTAMP:20260518T065826Z
+DTSTAMP:20260518T070106Z
 DTSTART;VALUE=DATE:20260126
 SUMMARY:国际清洁能源日 International Day of Clean Energy
 TRANSP:TRANSPARENT
-DESCRIPTION:Category: sustainability\\n能源行业/ESG 重点日期\\nSource: https://www.un.org/en/observances/clean-energy-day
+DESCRIPTION:能源行业/ESG 重点日期
 RRULE:FREQ=YEARLY
 END:VEVENT
 BEGIN:VEVENT
 UID:valentine-day@festival-calendar
-DTSTAMP:20260518T065826Z
+DTSTAMP:20260518T070106Z
 DTSTART;VALUE=DATE:20260214
 SUMMARY:情人节 Valentine’s Day
 TRANSP:TRANSPARENT
-DESCRIPTION:Category: lifestyle\\n常用生活节日
+DESCRIPTION:常用生活节日
 RRULE:FREQ=YEARLY
 END:VEVENT
 BEGIN:VEVENT
 UID:world-consumer-rights-day@festival-calendar
-DTSTAMP:20260518T065826Z
+DTSTAMP:20260518T070106Z
 DTSTART;VALUE=DATE:20260315
 SUMMARY:消费者权益日 World Consumer Rights Day
 TRANSP:TRANSPARENT
-DESCRIPTION:Category: business\\n大众认知较高；适合品牌/服务/客户权益主题\\nSource: https://www.consumersinternational.org/what-we-do/world-consumer-rights-day/
+DESCRIPTION:大众认知较高；适合品牌/服务/客户权益主题
 RRULE:FREQ=YEARLY
 END:VEVENT
 BEGIN:VEVENT
 UID:world-water-day@festival-calendar
-DTSTAMP:20260518T065826Z
+DTSTAMP:20260518T070106Z
 DTSTART;VALUE=DATE:20260322
 SUMMARY:世界水日 World Water Day
 TRANSP:TRANSPARENT
-DESCRIPTION:Category: sustainability\\n环保/ESG 重点日期\\nSource: https://www.un.org/en/observances/water-day
+DESCRIPTION:环保/ESG 重点日期
 RRULE:FREQ=YEARLY
 END:VEVENT
 BEGIN:VEVENT
 UID:april-fools-day@festival-calendar
-DTSTAMP:20260518T065826Z
+DTSTAMP:20260518T070106Z
 DTSTART;VALUE=DATE:20260401
 SUMMARY:愚人节 April Fools’ Day
 TRANSP:TRANSPARENT
-DESCRIPTION:Category: lifestyle\\n大众认知较高；保留
+DESCRIPTION:大众认知较高；保留
 RRULE:FREQ=YEARLY
 END:VEVENT
 BEGIN:VEVENT
 UID:world-health-day@festival-calendar
-DTSTAMP:20260518T065826Z
+DTSTAMP:20260518T070106Z
 DTSTART;VALUE=DATE:20260407
 SUMMARY:世界卫生日 World Health Day
 TRANSP:TRANSPARENT
-DESCRIPTION:Category: international\\n大众健康主题；保留\\nSource: https://www.who.int/campaigns/world-health-day
+DESCRIPTION:大众健康主题；保留
 RRULE:FREQ=YEARLY
 END:VEVENT
 BEGIN:VEVENT
 UID:earth-day@festival-calendar
-DTSTAMP:20260518T065826Z
+DTSTAMP:20260518T070106Z
 DTSTART;VALUE=DATE:20260422
 SUMMARY:地球日 Earth Day
 TRANSP:TRANSPARENT
-DESCRIPTION:Category: sustainability\\n环保/ESG 重点日期\\nSource: https://www.un.org/en/observances/earth-day
+DESCRIPTION:环保/ESG 重点日期
 RRULE:FREQ=YEARLY
 END:VEVENT
 BEGIN:VEVENT
 UID:world-book-day@festival-calendar
-DTSTAMP:20260518T065826Z
+DTSTAMP:20260518T070106Z
 DTSTART;VALUE=DATE:20260423
 SUMMARY:世界读书日 World Book Day
 TRANSP:TRANSPARENT
-DESCRIPTION:Category: international\\n大众认知较高；知识/阅读主题\\nSource: https://www.unesco.org/en/days/world-book-and-copyright
+DESCRIPTION:大众认知较高；知识/阅读主题
 RRULE:FREQ=YEARLY
 END:VEVENT
 BEGIN:VEVENT
 UID:safety-health-at-work-day@festival-calendar
-DTSTAMP:20260518T065826Z
+DTSTAMP:20260518T070106Z
 DTSTART;VALUE=DATE:20260428
 SUMMARY:世界安全生产与健康日 World Day for Safety and Health at Work
 TRANSP:TRANSPARENT
-DESCRIPTION:Category: business\\n企业安全/运营重点日期\\nSource: https://www.ilo.org/global/topics/safety-and-health-at-work/events-training/events-meetings/world-day-safety-health-at-work/lang--en/index.htm
+DESCRIPTION:企业安全/运营重点日期
 RRULE:FREQ=YEARLY
 END:VEVENT
 BEGIN:VEVENT
 UID:mothers-day@festival-calendar
-DTSTAMP:20260518T065826Z
+DTSTAMP:20260518T070106Z
 DTSTART;VALUE=DATE:20260510
 SUMMARY:母亲节 Mother’s Day
 TRANSP:TRANSPARENT
-DESCRIPTION:Category: lifestyle\\n每年5月第二个星期日
+DESCRIPTION:每年5月第二个星期日
 RRULE:FREQ=YEARLY;BYMONTH=5;BYDAY=2SU
 END:VEVENT
 BEGIN:VEVENT
 UID:biodiversity-day@festival-calendar
-DTSTAMP:20260518T065826Z
+DTSTAMP:20260518T070106Z
 DTSTART;VALUE=DATE:20260522
 SUMMARY:国际生物多样性日 International Day for Biological Diversity
 TRANSP:TRANSPARENT
-DESCRIPTION:Category: sustainability\\nESG/生态主题，可用于企业传播\\nSource: https://www.un.org/en/observances/biological-diversity-day
+DESCRIPTION:ESG/生态主题，可用于企业传播
 RRULE:FREQ=YEARLY
 END:VEVENT
 BEGIN:VEVENT
 UID:world-no-tobacco-day@festival-calendar
-DTSTAMP:20260518T065826Z
+DTSTAMP:20260518T070106Z
 DTSTART;VALUE=DATE:20260531
 SUMMARY:世界无烟日 World No Tobacco Day
 TRANSP:TRANSPARENT
-DESCRIPTION:Category: international\\n大众健康主题；保留\\nSource: https://www.who.int/campaigns/world-no-tobacco-day
+DESCRIPTION:大众健康主题；保留
 RRULE:FREQ=YEARLY
 END:VEVENT
 BEGIN:VEVENT
 UID:world-environment-day@festival-calendar
-DTSTAMP:20260518T065826Z
+DTSTAMP:20260518T070106Z
 DTSTART;VALUE=DATE:20260605
 SUMMARY:世界环境日 World Environment Day
 TRANSP:TRANSPARENT
-DESCRIPTION:Category: sustainability\\n环保/ESG 重点日期\\nSource: https://www.un.org/en/observances/environment-day
+DESCRIPTION:环保/ESG 重点日期
 RRULE:FREQ=YEARLY
 END:VEVENT
 BEGIN:VEVENT
 UID:world-oceans-day@festival-calendar
-DTSTAMP:20260518T065826Z
+DTSTAMP:20260518T070106Z
 DTSTART;VALUE=DATE:20260608
 SUMMARY:世界海洋日 World Oceans Day
 TRANSP:TRANSPARENT
-DESCRIPTION:Category: sustainability\\n大众认知较高；环保主题\\nSource: https://www.un.org/en/observances/oceans-day
+DESCRIPTION:大众认知较高；环保主题
 RRULE:FREQ=YEARLY
 END:VEVENT
 BEGIN:VEVENT
 UID:fathers-day@festival-calendar
-DTSTAMP:20260518T065826Z
+DTSTAMP:20260518T070106Z
 DTSTART;VALUE=DATE:20260621
 SUMMARY:父亲节 Father’s Day
 TRANSP:TRANSPARENT
-DESCRIPTION:Category: lifestyle\\n每年6月第三个星期日
+DESCRIPTION:每年6月第三个星期日
 RRULE:FREQ=YEARLY;BYMONTH=6;BYDAY=3SU
 END:VEVENT
 BEGIN:VEVENT
 UID:intl-charity-day@festival-calendar
-DTSTAMP:20260518T065826Z
+DTSTAMP:20260518T070106Z
 DTSTART;VALUE=DATE:20260905
 SUMMARY:国际慈善日 International Day of Charity
 TRANSP:TRANSPARENT
-DESCRIPTION:Category: international\\n公益/CSR 主题，可用于企业传播\\nSource: https://www.un.org/en/observances/charity-day
+DESCRIPTION:公益/CSR 主题，可用于企业传播
 RRULE:FREQ=YEARLY
 END:VEVENT
 BEGIN:VEVENT
 UID:clean-air-day@festival-calendar
-DTSTAMP:20260518T065826Z
+DTSTAMP:20260518T070106Z
 DTSTART;VALUE=DATE:20260907
 SUMMARY:国际清洁空气蓝天日 International Day of Clean Air for Blue Skies
 TRANSP:TRANSPARENT
-DESCRIPTION:Category: sustainability\\n环保/ESG 重点日期\\nSource: https://www.un.org/en/observances/clean-air-day
+DESCRIPTION:环保/ESG 重点日期
 RRULE:FREQ=YEARLY
 END:VEVENT
 BEGIN:VEVENT
 UID:world-cleanup-day@festival-calendar
-DTSTAMP:20260518T065826Z
+DTSTAMP:20260518T070106Z
 DTSTART;VALUE=DATE:20260920
 SUMMARY:世界清洁日 World Cleanup Day
 TRANSP:TRANSPARENT
-DESCRIPTION:Category: sustainability\\n环保行动重点日期\\nSource: https://www.un.org/en/observances/cleanup-day
+DESCRIPTION:环保行动重点日期
 RRULE:FREQ=YEARLY
 END:VEVENT
 BEGIN:VEVENT
 UID:world-car-free-day@festival-calendar
-DTSTAMP:20260518T065826Z
+DTSTAMP:20260518T070106Z
 DTSTART;VALUE=DATE:20260922
 SUMMARY:世界无车日 World Car-Free Day
 TRANSP:TRANSPARENT
-DESCRIPTION:Category: sustainability\\n低碳出行主题；大众理解度较高
+DESCRIPTION:低碳出行主题；大众理解度较高
 RRULE:FREQ=YEARLY
 END:VEVENT
 BEGIN:VEVENT
 UID:world-tourism-day@festival-calendar
-DTSTAMP:20260518T065826Z
+DTSTAMP:20260518T070106Z
 DTSTART;VALUE=DATE:20260927
 SUMMARY:世界旅游日 World Tourism Day
 TRANSP:TRANSPARENT
-DESCRIPTION:Category: international\\n大众认知较高；文化/旅游主题\\nSource: https://www.unwto.org/world-tourism-day
+DESCRIPTION:大众认知较高；文化/旅游主题
 RRULE:FREQ=YEARLY
 END:VEVENT
 BEGIN:VEVENT
 UID:world-mental-health-day@festival-calendar
-DTSTAMP:20260518T065826Z
+DTSTAMP:20260518T070106Z
 DTSTART;VALUE=DATE:20261010
 SUMMARY:世界精神卫生日 World Mental Health Day
 TRANSP:TRANSPARENT
-DESCRIPTION:Category: international\\n大众健康关怀主题\\nSource: https://www.who.int/campaigns/world-mental-health-day
+DESCRIPTION:大众健康关怀主题
 RRULE:FREQ=YEARLY
 END:VEVENT
 BEGIN:VEVENT
 UID:world-food-day@festival-calendar
-DTSTAMP:20260518T065826Z
+DTSTAMP:20260518T070106Z
 DTSTART;VALUE=DATE:20261016
 SUMMARY:世界粮食日 World Food Day
 TRANSP:TRANSPARENT
-DESCRIPTION:Category: sustainability\\n大众认知较高；可持续发展主题\\nSource: https://www.un.org/en/observances/world-food-day
+DESCRIPTION:大众认知较高；可持续发展主题
 RRULE:FREQ=YEARLY
 END:VEVENT
 BEGIN:VEVENT
 UID:halloween@festival-calendar
-DTSTAMP:20260518T065826Z
+DTSTAMP:20260518T070106Z
 DTSTART;VALUE=DATE:20261031
 SUMMARY:万圣夜 Halloween
 TRANSP:TRANSPARENT
-DESCRIPTION:Category: lifestyle\\n常用西方节日
+DESCRIPTION:常用西方节日
 RRULE:FREQ=YEARLY
 END:VEVENT
 BEGIN:VEVENT
 UID:world-science-day@festival-calendar
-DTSTAMP:20260518T065826Z
+DTSTAMP:20260518T070106Z
 DTSTART;VALUE=DATE:20261110
 SUMMARY:世界科学日 World Science Day for Peace and Development
 TRANSP:TRANSPARENT
-DESCRIPTION:Category: international\\n科技/教育主题；外企环境可保留\\nSource: https://www.unesco.org/en/days/science-peace-development
+DESCRIPTION:科技/教育主题；外企环境可保留
 RRULE:FREQ=YEARLY
 END:VEVENT
 BEGIN:VEVENT
 UID:thanksgiving-day@festival-calendar
-DTSTAMP:20260518T065826Z
+DTSTAMP:20260518T070106Z
 DTSTART;VALUE=DATE:20261126
 SUMMARY:感恩节 Thanksgiving Day
 TRANSP:TRANSPARENT
-DESCRIPTION:Category: lifestyle\\n美国感恩节：每年11月第四个星期四
+DESCRIPTION:美国感恩节：每年11月第四个星期四
 RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=4TH
 END:VEVENT
 BEGIN:VEVENT
 UID:black-friday@festival-calendar
-DTSTAMP:20260518T065826Z
+DTSTAMP:20260518T070106Z
 DTSTART;VALUE=DATE:20261127
 SUMMARY:黑色星期五 Black Friday
 TRANSP:TRANSPARENT
-DESCRIPTION:Category: business\\n海外营销节点
+DESCRIPTION:海外营销节点
 RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=4FR
 END:VEVENT
 BEGIN:VEVENT
 UID:volunteer-day@festival-calendar
-DTSTAMP:20260518T065826Z
+DTSTAMP:20260518T070106Z
 DTSTART;VALUE=DATE:20261205
 SUMMARY:国际志愿者日 International Volunteer Day
 TRANSP:TRANSPARENT
-DESCRIPTION:Category: international\\n公益/CSR 主题，可用于企业传播\\nSource: https://www.un.org/en/observances/volunteer-day
+DESCRIPTION:公益/CSR 主题，可用于企业传播
 RRULE:FREQ=YEARLY
 END:VEVENT
 BEGIN:VEVENT
 UID:christmas-eve@festival-calendar
-DTSTAMP:20260518T065826Z
+DTSTAMP:20260518T070106Z
 DTSTART;VALUE=DATE:20261224
 SUMMARY:平安夜 Christmas Eve
 TRANSP:TRANSPARENT
-DESCRIPTION:Category: lifestyle\\n常用西方节日
+DESCRIPTION:常用西方节日
 RRULE:FREQ=YEARLY
 END:VEVENT
 BEGIN:VEVENT
 UID:christmas-day@festival-calendar
-DTSTAMP:20260518T065826Z
+DTSTAMP:20260518T070106Z
 DTSTART;VALUE=DATE:20261225
 SUMMARY:圣诞节 Christmas Day
 TRANSP:TRANSPARENT
-DESCRIPTION:Category: lifestyle\\n常用西方节日
+DESCRIPTION:常用西方节日
 RRULE:FREQ=YEARLY
 END:VEVENT
 END:VCALENDAR
