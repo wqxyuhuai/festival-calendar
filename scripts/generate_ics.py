@@ -5,7 +5,7 @@ from datetime import datetime, timezone
 
 CSV_PATH = "data/festivals.csv"
 OUTPUT_PATH = "docs/festival_extra.ics"
-CALENDAR_NAME = "节日补充 Festival Extra"
+CALENDAR_NAME = "Festival Supplement for iOS Calendar"
 
 
 def escape_ics_text(value: str) -> str:
