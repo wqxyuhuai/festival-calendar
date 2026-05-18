@@ -1,83 +1,178 @@
-enabled,id,name,date,repeat,rrule,category,note
-TRUE,valentine,情人节,2026-02-14,yearly,,international,公历固定节日；每年重复
-TRUE,womens-day,妇女节,2026-03-08,yearly,,modern,公历固定节日；每年重复
-TRUE,arbor-day-cn,植树节,2026-03-12,yearly,,modern,公历固定节日；每年重复
-TRUE,april-fools,愚人节,2026-04-01,yearly,,international,公历固定节日；每年重复
-TRUE,childrens-day,儿童节,2026-06-01,yearly,,modern,公历固定节日；每年重复
-TRUE,teachers-day-cn,教师节,2026-09-10,yearly,,modern,公历固定节日；每年重复
-TRUE,halloween,万圣夜,2026-10-31,yearly,,international,公历固定节日；每年重复
-TRUE,christmas-eve,平安夜,2026-12-24,yearly,,international,公历固定节日；每年重复
-TRUE,christmas,圣诞节,2026-12-25,yearly,,international,公历固定节日；每年重复
-TRUE,mothers-day,母亲节,2026-05-10,rrule,FREQ=YEARLY;BYMONTH=5;BYDAY=2SU,international,每年5月第2个星期日
-TRUE,fathers-day,父亲节,2026-06-21,rrule,FREQ=YEARLY;BYMONTH=6;BYDAY=3SU,international,每年6月第3个星期日
-TRUE,thanksgiving,感恩节,2026-11-26,rrule,FREQ=YEARLY;BYMONTH=11;BYDAY=4TH,international,每年11月第4个星期四
-TRUE,lantern-lunar2026,元宵节,2026-03-03,none,,lunar,农历正月十五
-TRUE,qixi-lunar2026,七夕,2026-08-19,none,,lunar,农历七月初七
-TRUE,zhongyuan-lunar2026,中元节,2026-08-27,none,,lunar,农历七月十五
-TRUE,double-ninth-lunar2026,重阳节,2026-10-19,none,,lunar,农历九月初九
-TRUE,laba-lunar2026,腊八节,2027-01-15,none,,lunar,农历腊月初八；属农历2026年
-TRUE,xiaonian-north-lunar2026,小年（北方）,2027-01-30,none,,lunar,农历腊月廿三；属农历2026年
-TRUE,xiaonian-south-lunar2026,小年（南方）,2027-01-31,none,,lunar,农历腊月廿四；属农历2026年
-TRUE,lantern-lunar2027,元宵节,2027-02-21,none,,lunar,农历正月十五
-TRUE,qixi-lunar2027,七夕,2027-08-08,none,,lunar,农历七月初七
-TRUE,zhongyuan-lunar2027,中元节,2027-08-16,none,,lunar,农历七月十五
-TRUE,double-ninth-lunar2027,重阳节,2027-10-08,none,,lunar,农历九月初九
-TRUE,laba-lunar2027,腊八节,2028-01-04,none,,lunar,农历腊月初八；属农历2027年
-TRUE,xiaonian-north-lunar2027,小年（北方）,2028-01-19,none,,lunar,农历腊月廿三；属农历2027年
-TRUE,xiaonian-south-lunar2027,小年（南方）,2028-01-20,none,,lunar,农历腊月廿四；属农历2027年
-TRUE,lantern-lunar2028,元宵节,2028-02-10,none,,lunar,农历正月十五
-TRUE,qixi-lunar2028,七夕,2028-08-26,none,,lunar,农历七月初七
-TRUE,zhongyuan-lunar2028,中元节,2028-09-03,none,,lunar,农历七月十五
-TRUE,double-ninth-lunar2028,重阳节,2028-10-26,none,,lunar,农历九月初九
-TRUE,laba-lunar2028,腊八节,2029-01-22,none,,lunar,农历腊月初八；属农历2028年
-TRUE,xiaonian-north-lunar2028,小年（北方）,2029-02-06,none,,lunar,农历腊月廿三；属农历2028年
-TRUE,xiaonian-south-lunar2028,小年（南方）,2029-02-07,none,,lunar,农历腊月廿四；属农历2028年
-TRUE,lantern-lunar2029,元宵节,2029-02-27,none,,lunar,农历正月十五
-TRUE,qixi-lunar2029,七夕,2029-08-16,none,,lunar,农历七月初七
-TRUE,zhongyuan-lunar2029,中元节,2029-08-24,none,,lunar,农历七月十五
-TRUE,double-ninth-lunar2029,重阳节,2029-10-16,none,,lunar,农历九月初九
-TRUE,laba-lunar2029,腊八节,2030-01-11,none,,lunar,农历腊月初八；属农历2029年
-TRUE,xiaonian-north-lunar2029,小年（北方）,2030-01-26,none,,lunar,农历腊月廿三；属农历2029年
-TRUE,xiaonian-south-lunar2029,小年（南方）,2030-01-27,none,,lunar,农历腊月廿四；属农历2029年
-TRUE,lantern-lunar2030,元宵节,2030-02-17,none,,lunar,农历正月十五
-TRUE,qixi-lunar2030,七夕,2030-08-05,none,,lunar,农历七月初七
-TRUE,zhongyuan-lunar2030,中元节,2030-08-13,none,,lunar,农历七月十五
-TRUE,double-ninth-lunar2030,重阳节,2030-10-05,none,,lunar,农历九月初九
-TRUE,laba-lunar2030,腊八节,2031-01-01,none,,lunar,农历腊月初八；属农历2030年
-TRUE,xiaonian-north-lunar2030,小年（北方）,2031-01-16,none,,lunar,农历腊月廿三；属农历2030年
-TRUE,xiaonian-south-lunar2030,小年（南方）,2031-01-17,none,,lunar,农历腊月廿四；属农历2030年
-TRUE,lantern-lunar2031,元宵节,2031-02-06,none,,lunar,农历正月十五
-TRUE,qixi-lunar2031,七夕,2031-08-24,none,,lunar,农历七月初七
-TRUE,zhongyuan-lunar2031,中元节,2031-09-01,none,,lunar,农历七月十五
-TRUE,double-ninth-lunar2031,重阳节,2031-10-24,none,,lunar,农历九月初九
-TRUE,laba-lunar2031,腊八节,2032-01-20,none,,lunar,农历腊月初八；属农历2031年
-TRUE,xiaonian-north-lunar2031,小年（北方）,2032-02-04,none,,lunar,农历腊月廿三；属农历2031年
-TRUE,xiaonian-south-lunar2031,小年（南方）,2032-02-05,none,,lunar,农历腊月廿四；属农历2031年
-TRUE,lantern-lunar2032,元宵节,2032-02-25,none,,lunar,农历正月十五
-TRUE,qixi-lunar2032,七夕,2032-08-12,none,,lunar,农历七月初七
-TRUE,zhongyuan-lunar2032,中元节,2032-08-20,none,,lunar,农历七月十五
-TRUE,double-ninth-lunar2032,重阳节,2032-10-12,none,,lunar,农历九月初九
-TRUE,laba-lunar2032,腊八节,2033-01-08,none,,lunar,农历腊月初八；属农历2032年
-TRUE,xiaonian-north-lunar2032,小年（北方）,2033-01-23,none,,lunar,农历腊月廿三；属农历2032年
-TRUE,xiaonian-south-lunar2032,小年（南方）,2033-01-24,none,,lunar,农历腊月廿四；属农历2032年
-TRUE,lantern-lunar2033,元宵节,2033-02-14,none,,lunar,农历正月十五
-TRUE,qixi-lunar2033,七夕,2033-08-01,none,,lunar,农历七月初七
-TRUE,zhongyuan-lunar2033,中元节,2033-08-09,none,,lunar,农历七月十五
-TRUE,double-ninth-lunar2033,重阳节,2033-10-01,none,,lunar,农历九月初九
-TRUE,laba-lunar2033,腊八节,2034-01-27,none,,lunar,农历腊月初八；属农历2033年
-TRUE,xiaonian-north-lunar2033,小年（北方）,2034-02-11,none,,lunar,农历腊月廿三；属农历2033年
-TRUE,xiaonian-south-lunar2033,小年（南方）,2034-02-12,none,,lunar,农历腊月廿四；属农历2033年
-TRUE,lantern-lunar2034,元宵节,2034-03-05,none,,lunar,农历正月十五
-TRUE,qixi-lunar2034,七夕,2034-08-20,none,,lunar,农历七月初七
-TRUE,zhongyuan-lunar2034,中元节,2034-08-28,none,,lunar,农历七月十五
-TRUE,double-ninth-lunar2034,重阳节,2034-10-20,none,,lunar,农历九月初九
-TRUE,laba-lunar2034,腊八节,2035-01-17,none,,lunar,农历腊月初八；属农历2034年
-TRUE,xiaonian-north-lunar2034,小年（北方）,2035-02-01,none,,lunar,农历腊月廿三；属农历2034年
-TRUE,xiaonian-south-lunar2034,小年（南方）,2035-02-02,none,,lunar,农历腊月廿四；属农历2034年
-TRUE,lantern-lunar2035,元宵节,2035-02-22,none,,lunar,农历正月十五
-TRUE,qixi-lunar2035,七夕,2035-08-10,none,,lunar,农历七月初七
-TRUE,zhongyuan-lunar2035,中元节,2035-08-18,none,,lunar,农历七月十五
-TRUE,double-ninth-lunar2035,重阳节,2035-10-09,none,,lunar,农历九月初九
-TRUE,laba-lunar2035,腊八节,2036-01-05,none,,lunar,农历腊月初八；属农历2035年
-TRUE,xiaonian-north-lunar2035,小年（北方）,2036-01-20,none,,lunar,农历腊月廿三；属农历2035年
-TRUE,xiaonian-south-lunar2035,小年（南方）,2036-01-21,none,,lunar,农历腊月廿四；属农历2035年
+enabled,id,name,date,repeat,rrule,category,note,source_url
+FALSE,new-year-day,元旦 New Year’s Day,2026/1/1,yearly,,apple-native-likely,法定节假日/苹果原生日历通常已包含；默认关闭避免重复,
+TRUE,intl-education-day,国际教育日 International Day of Education,2026/1/24,yearly,,international,联合国国际日,https://www.un.org/en/observances/education-day
+TRUE,clean-energy-day,国际清洁能源日 International Day of Clean Energy,2026/1/26,yearly,,sustainability,适合能源/外企/ESG 场景,https://www.un.org/en/observances/clean-energy-day
+TRUE,world-wetlands-day,世界湿地日 World Wetlands Day,2026/2/2,yearly,,sustainability,环境与生态保护主题,https://www.un.org/en/observances/world-wetlands-day
+TRUE,valentine-day,情人节 Valentine’s Day,2026/2/14,yearly,,lifestyle,公历固定节日,
+FALSE,chuxi-lunar2026,除夕 Chinese New Year’s Eve,2026/2/16,none,,apple-native-likely,农历2026年腊月最后一天；法定节假日/苹果原生日历通常已包含；默认关闭避免重复,
+FALSE,spring-festival-lunar2026,春节 Spring Festival,2026/2/17,none,,apple-native-likely,农历2026年1月1日；法定节假日/苹果原生日历通常已包含；默认关闭避免重复,
+TRUE,world-wildlife-day,世界野生动植物日 World Wildlife Day,2026/3/3,yearly,,sustainability,联合国国际日,https://www.un.org/en/observances/world-wildlife-day
+FALSE,lantern-festival-lunar2026,元宵节 Lantern Festival,2026/3/3,none,,apple-native-likely,农历2026年1月15日；苹果中国大陆节假日日历可能已包含；默认关闭避免重复,
+FALSE,womens-day,妇女节 International Women’s Day,2026/3/8,yearly,,apple-native-likely,苹果中国大陆节假日日历可能已包含；默认关闭避免重复,
+FALSE,china-arbor-day,植树节 China Arbor Day,2026/3/12,yearly,,apple-native-likely,苹果中国大陆节假日日历可能已包含；默认关闭避免重复,
+TRUE,world-consumer-rights-day,消费者权益日 World Consumer Rights Day,2026/3/15,yearly,,business,适合品牌/服务/客户权益主题,https://www.consumersinternational.org/what-we-do/world-consumer-rights-day/
+FALSE,dragon-heads-raising-lunar2026,龙抬头 Dragon Heads-raising Day,2026/3/20,none,,apple-native-likely,农历2026年2月2日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+TRUE,intl-day-forests,国际森林日 International Day of Forests,2026/3/21,yearly,,sustainability,森林与生态保护主题,https://www.un.org/en/observances/forests-and-trees-day
+TRUE,world-water-day,世界水日 World Water Day,2026/3/22,yearly,,sustainability,水资源主题,https://www.un.org/en/observances/water-day
+TRUE,world-meteorological-day,世界气象日 World Meteorological Day,2026/3/23,yearly,,sustainability,气候/气象主题,https://wmo.int/site/world-meteorological-day
+TRUE,april-fools-day,愚人节 April Fools’ Day,2026/4/1,yearly,,lifestyle,公历固定节日,
+FALSE,tomb-sweeping-day,清明节 Qingming Festival,2026/4/4,yearly,,apple-native-likely,法定节假日/苹果原生日历通常已包含；默认关闭避免重复,
+TRUE,world-health-day,世界卫生日 World Health Day,2026/4/7,yearly,,international,WHO 国际日,https://www.who.int/campaigns/world-health-day
+TRUE,earth-day,地球日 Earth Day,2026/4/22,yearly,,sustainability,环保/ESG 主题,https://www.un.org/en/observances/earth-day
+TRUE,world-book-day,世界读书日 World Book Day,2026/4/23,yearly,,international,读书/知识分享主题,https://www.unesco.org/en/days/world-book-and-copyright
+TRUE,safety-health-at-work-day,世界安全生产与健康日 World Day for Safety and Health at Work,2026/4/28,yearly,,business,适合企业安全/运营主题,https://www.ilo.org/global/topics/safety-and-health-at-work/events-training/events-meetings/world-day-safety-health-at-work/lang--en/index.htm
+FALSE,labor-day-cn,劳动节 Labor Day,2026/5/1,yearly,,apple-native-likely,法定节假日/苹果原生日历通常已包含；默认关闭避免重复,
+FALSE,youth-day-cn,青年节 Youth Day,2026/5/4,yearly,,apple-native-likely,苹果中国大陆节假日日历可能已包含；默认关闭避免重复,
+TRUE,mothers-day,母亲节 Mother’s Day,2026/5/10,rrule,FREQ=YEARLY;BYMONTH=5;BYDAY=2SU,lifestyle,每年5月第二个星期日,
+TRUE,world-bee-day,世界蜜蜂日 World Bee Day,2026/5/20,yearly,,sustainability,生物多样性主题,https://www.un.org/en/observances/bee-day
+TRUE,biodiversity-day,国际生物多样性日 International Day for Biological Diversity,2026/5/22,yearly,,sustainability,生物多样性主题,https://www.un.org/en/observances/biological-diversity-day
+TRUE,world-no-tobacco-day,世界无烟日 World No Tobacco Day,2026/5/31,yearly,,international,WHO 国际日,https://www.who.int/campaigns/world-no-tobacco-day
+FALSE,children-day-cn,儿童节 Children’s Day,2026/6/1,yearly,,apple-native-likely,你已发现与苹果原生日历可能重复；默认关闭,
+TRUE,world-bicycle-day,世界自行车日 World Bicycle Day,2026/6/3,yearly,,sustainability,低碳出行主题,https://www.un.org/en/observances/bicycle-day
+TRUE,world-environment-day,世界环境日 World Environment Day,2026/6/5,yearly,,sustainability,环保/ESG 主题,https://www.un.org/en/observances/environment-day
+TRUE,world-oceans-day,世界海洋日 World Oceans Day,2026/6/8,yearly,,sustainability,海洋环境主题,https://www.un.org/en/observances/oceans-day
+TRUE,desertification-drought-day,世界防治荒漠化和干旱日 World Day to Combat Desertification and Drought,2026/6/17,yearly,,sustainability,环境/气候主题,https://www.un.org/en/observances/desertification-day
+FALSE,dragon-boat-lunar2026,端午节 Dragon Boat Festival,2026/6/19,none,,apple-native-likely,农历2026年5月5日；法定节假日/苹果原生日历通常已包含；默认关闭避免重复,
+TRUE,fathers-day,父亲节 Father’s Day,2026/6/21,rrule,FREQ=YEARLY;BYMONTH=6;BYDAY=3SU,lifestyle,每年6月第三个星期日,
+TRUE,world-population-day,世界人口日 World Population Day,2026/7/11,yearly,,international,联合国国际日,https://www.un.org/en/observances/world-population-day
+TRUE,intl-youth-day,国际青年日 International Youth Day,2026/8/12,yearly,,international,联合国国际日,https://www.un.org/en/observances/youth-day
+FALSE,qixi-lunar2026,七夕节 Qixi Festival,2026/8/19,none,,apple-native-likely,农历2026年7月7日；你已发现与苹果原生日历可能重复；默认关闭,
+FALSE,ghost-festival-lunar2026,中元节 Ghost Festival,2026/8/27,none,,apple-native-likely,农历2026年7月15日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+TRUE,intl-charity-day,国际慈善日 International Day of Charity,2026/9/5,yearly,,international,公益/CSR 主题,https://www.un.org/en/observances/charity-day
+TRUE,clean-air-day,国际清洁空气蓝天日 International Day of Clean Air for Blue Skies,2026/9/7,yearly,,sustainability,空气质量/环保主题,https://www.un.org/en/observances/clean-air-day
+FALSE,teachers-day-cn,教师节 Teachers’ Day,2026/9/10,yearly,,apple-native-likely,苹果中国大陆节假日日历可能已包含；默认关闭避免重复,
+TRUE,world-cleanup-day,世界清洁日 World Cleanup Day,2026/9/20,yearly,,sustainability,环保行动日,https://www.un.org/en/observances/cleanup-day
+TRUE,world-car-free-day,世界无车日 World Car-Free Day,2026/9/22,yearly,,sustainability,低碳出行主题,
+FALSE,mid-autumn-lunar2026,中秋节 Mid-Autumn Festival,2026/9/25,none,,apple-native-likely,农历2026年8月15日；法定节假日/苹果原生日历通常已包含；默认关闭避免重复,
+TRUE,world-tourism-day,世界旅游日 World Tourism Day,2026/9/27,yearly,,international,旅行/文化主题,https://www.unwto.org/world-tourism-day
+FALSE,national-day-cn,国庆节 National Day,2026/10/1,yearly,,apple-native-likely,法定节假日/苹果原生日历通常已包含；默认关闭避免重复,
+TRUE,world-habitat-day,世界人居日 World Habitat Day,2026/10/5,rrule,FREQ=YEARLY;BYMONTH=10;BYDAY=1MO,sustainability,每年10月第一个星期一,https://www.un.org/en/observances/habitat-day
+TRUE,world-mental-health-day,世界精神卫生日 World Mental Health Day,2026/10/10,yearly,,international,健康/关怀主题,https://www.who.int/campaigns/world-mental-health-day
+TRUE,disaster-risk-reduction-day,国际减灾日 International Day for Disaster Risk Reduction,2026/10/13,yearly,,sustainability,安全/韧性/灾害风险主题,https://www.un.org/en/observances/disaster-reduction-day
+TRUE,world-food-day,世界粮食日 World Food Day,2026/10/16,yearly,,sustainability,粮食与可持续发展主题,https://www.un.org/en/observances/world-food-day
+FALSE,double-ninth-lunar2026,重阳节 Double Ninth Festival,2026/10/19,none,,apple-native-likely,农历2026年9月9日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+TRUE,united-nations-day,联合国日 United Nations Day,2026/10/24,yearly,,international,联合国日,https://www.un.org/en/observances/un-day
+TRUE,halloween,万圣夜 Halloween,2026/10/31,yearly,,lifestyle,公历固定节日,
+TRUE,world-cities-day,世界城市日 World Cities Day,2026/10/31,yearly,,sustainability,城市与可持续发展主题,https://www.un.org/en/observances/cities-day
+TRUE,world-science-day,世界科学日 World Science Day for Peace and Development,2026/11/10,yearly,,international,科技/教育主题,https://www.unesco.org/en/days/science-peace-development
+TRUE,world-toilet-day,世界厕所日 World Toilet Day,2026/11/19,yearly,,sustainability,公共卫生/水资源主题,https://www.un.org/en/observances/toilet-day
+TRUE,thanksgiving-day,感恩节 Thanksgiving Day,2026/11/26,rrule,FREQ=YEARLY;BYMONTH=11;BYDAY=4TH,lifestyle,美国感恩节：每年11月第四个星期四,
+TRUE,black-friday,黑色星期五 Black Friday,2026/11/27,rrule,FREQ=YEARLY;BYMONTH=11;BYDAY=4FR,business,每年11月第四个星期五；营销节点,
+TRUE,world-soil-day,世界土壤日 World Soil Day,2026/12/5,yearly,,sustainability,土壤与生态主题,https://www.un.org/en/observances/world-soil-day
+TRUE,volunteer-day,国际志愿者日 International Volunteer Day,2026/12/5,yearly,,international,公益/CSR 主题,https://www.un.org/en/observances/volunteer-day
+TRUE,human-rights-day,人权日 Human Rights Day,2026/12/10,yearly,,international,联合国国际日,https://www.un.org/en/observances/human-rights-day
+TRUE,intl-mountain-day,国际山岳日 International Mountain Day,2026/12/11,yearly,,sustainability,生态与山地主题,https://www.un.org/en/observances/mountain-day
+TRUE,intl-migrants-day,国际移民日 International Migrants Day,2026/12/18,yearly,,international,联合国国际日,https://www.un.org/en/observances/migrants-day
+TRUE,christmas-eve,平安夜 Christmas Eve,2026/12/24,yearly,,lifestyle,公历固定节日,
+TRUE,christmas-day,圣诞节 Christmas Day,2026/12/25,yearly,,lifestyle,公历固定节日,
+FALSE,laba-lunar2026,腊八节 Laba Festival,2027/1/15,none,,apple-native-likely,农历2026年12月8日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,xiaonian-north-lunar2026,北方小年 Northern Little New Year,2027/1/30,none,,apple-native-likely,农历2026年12月23日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,xiaonian-south-lunar2026,南方小年 Southern Little New Year,2027/1/31,none,,apple-native-likely,农历2026年12月24日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,chuxi-lunar2027,除夕 Chinese New Year’s Eve,2027/2/6,none,,apple-native-likely,农历2027年腊月最后一天；法定节假日/苹果原生日历通常已包含；默认关闭避免重复,
+FALSE,spring-festival-lunar2027,春节 Spring Festival,2027/2/7,none,,apple-native-likely,农历2027年1月1日；法定节假日/苹果原生日历通常已包含；默认关闭避免重复,
+FALSE,lantern-festival-lunar2027,元宵节 Lantern Festival,2027/2/21,none,,apple-native-likely,农历2027年1月15日；苹果中国大陆节假日日历可能已包含；默认关闭避免重复,
+FALSE,dragon-heads-raising-lunar2027,龙抬头 Dragon Heads-raising Day,2027/3/9,none,,apple-native-likely,农历2027年2月2日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,dragon-boat-lunar2027,端午节 Dragon Boat Festival,2027/6/9,none,,apple-native-likely,农历2027年5月5日；法定节假日/苹果原生日历通常已包含；默认关闭避免重复,
+FALSE,qixi-lunar2027,七夕节 Qixi Festival,2027/8/8,none,,apple-native-likely,农历2027年7月7日；你已发现与苹果原生日历可能重复；默认关闭,
+FALSE,ghost-festival-lunar2027,中元节 Ghost Festival,2027/8/16,none,,apple-native-likely,农历2027年7月15日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,mid-autumn-lunar2027,中秋节 Mid-Autumn Festival,2027/9/15,none,,apple-native-likely,农历2027年8月15日；法定节假日/苹果原生日历通常已包含；默认关闭避免重复,
+FALSE,double-ninth-lunar2027,重阳节 Double Ninth Festival,2027/10/8,none,,apple-native-likely,农历2027年9月9日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,laba-lunar2027,腊八节 Laba Festival,2028/1/4,none,,apple-native-likely,农历2027年12月8日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,xiaonian-north-lunar2027,北方小年 Northern Little New Year,2028/1/19,none,,apple-native-likely,农历2027年12月23日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,xiaonian-south-lunar2027,南方小年 Southern Little New Year,2028/1/20,none,,apple-native-likely,农历2027年12月24日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,chuxi-lunar2028,除夕 Chinese New Year’s Eve,2028/1/26,none,,apple-native-likely,农历2028年腊月最后一天；法定节假日/苹果原生日历通常已包含；默认关闭避免重复,
+FALSE,spring-festival-lunar2028,春节 Spring Festival,2028/1/27,none,,apple-native-likely,农历2028年1月1日；法定节假日/苹果原生日历通常已包含；默认关闭避免重复,
+FALSE,lantern-festival-lunar2028,元宵节 Lantern Festival,2028/2/10,none,,apple-native-likely,农历2028年1月15日；苹果中国大陆节假日日历可能已包含；默认关闭避免重复,
+FALSE,dragon-heads-raising-lunar2028,龙抬头 Dragon Heads-raising Day,2028/2/26,none,,apple-native-likely,农历2028年2月2日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,dragon-boat-lunar2028,端午节 Dragon Boat Festival,2028/5/28,none,,apple-native-likely,农历2028年5月5日；法定节假日/苹果原生日历通常已包含；默认关闭避免重复,
+FALSE,qixi-lunar2028,七夕节 Qixi Festival,2028/8/26,none,,apple-native-likely,农历2028年7月7日；你已发现与苹果原生日历可能重复；默认关闭,
+FALSE,ghost-festival-lunar2028,中元节 Ghost Festival,2028/9/3,none,,apple-native-likely,农历2028年7月15日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,mid-autumn-lunar2028,中秋节 Mid-Autumn Festival,2028/10/3,none,,apple-native-likely,农历2028年8月15日；法定节假日/苹果原生日历通常已包含；默认关闭避免重复,
+FALSE,double-ninth-lunar2028,重阳节 Double Ninth Festival,2028/10/26,none,,apple-native-likely,农历2028年9月9日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,laba-lunar2028,腊八节 Laba Festival,2029/1/22,none,,apple-native-likely,农历2028年12月8日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,xiaonian-north-lunar2028,北方小年 Northern Little New Year,2029/2/6,none,,apple-native-likely,农历2028年12月23日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,xiaonian-south-lunar2028,南方小年 Southern Little New Year,2029/2/7,none,,apple-native-likely,农历2028年12月24日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,chuxi-lunar2029,除夕 Chinese New Year’s Eve,2029/2/12,none,,apple-native-likely,农历2029年腊月最后一天；法定节假日/苹果原生日历通常已包含；默认关闭避免重复,
+FALSE,spring-festival-lunar2029,春节 Spring Festival,2029/2/13,none,,apple-native-likely,农历2029年1月1日；法定节假日/苹果原生日历通常已包含；默认关闭避免重复,
+FALSE,lantern-festival-lunar2029,元宵节 Lantern Festival,2029/2/27,none,,apple-native-likely,农历2029年1月15日；苹果中国大陆节假日日历可能已包含；默认关闭避免重复,
+FALSE,dragon-heads-raising-lunar2029,龙抬头 Dragon Heads-raising Day,2029/3/16,none,,apple-native-likely,农历2029年2月2日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,dragon-boat-lunar2029,端午节 Dragon Boat Festival,2029/6/16,none,,apple-native-likely,农历2029年5月5日；法定节假日/苹果原生日历通常已包含；默认关闭避免重复,
+FALSE,qixi-lunar2029,七夕节 Qixi Festival,2029/8/16,none,,apple-native-likely,农历2029年7月7日；你已发现与苹果原生日历可能重复；默认关闭,
+FALSE,ghost-festival-lunar2029,中元节 Ghost Festival,2029/8/24,none,,apple-native-likely,农历2029年7月15日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,mid-autumn-lunar2029,中秋节 Mid-Autumn Festival,2029/9/22,none,,apple-native-likely,农历2029年8月15日；法定节假日/苹果原生日历通常已包含；默认关闭避免重复,
+FALSE,double-ninth-lunar2029,重阳节 Double Ninth Festival,2029/10/16,none,,apple-native-likely,农历2029年9月9日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,laba-lunar2029,腊八节 Laba Festival,2030/1/11,none,,apple-native-likely,农历2029年12月8日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,xiaonian-north-lunar2029,北方小年 Northern Little New Year,2030/1/26,none,,apple-native-likely,农历2029年12月23日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,xiaonian-south-lunar2029,南方小年 Southern Little New Year,2030/1/27,none,,apple-native-likely,农历2029年12月24日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,chuxi-lunar2030,除夕 Chinese New Year’s Eve,2030/2/2,none,,apple-native-likely,农历2030年腊月最后一天；法定节假日/苹果原生日历通常已包含；默认关闭避免重复,
+FALSE,spring-festival-lunar2030,春节 Spring Festival,2030/2/3,none,,apple-native-likely,农历2030年1月1日；法定节假日/苹果原生日历通常已包含；默认关闭避免重复,
+FALSE,lantern-festival-lunar2030,元宵节 Lantern Festival,2030/2/17,none,,apple-native-likely,农历2030年1月15日；苹果中国大陆节假日日历可能已包含；默认关闭避免重复,
+FALSE,dragon-heads-raising-lunar2030,龙抬头 Dragon Heads-raising Day,2030/3/5,none,,apple-native-likely,农历2030年2月2日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,dragon-boat-lunar2030,端午节 Dragon Boat Festival,2030/6/5,none,,apple-native-likely,农历2030年5月5日；法定节假日/苹果原生日历通常已包含；默认关闭避免重复,
+FALSE,qixi-lunar2030,七夕节 Qixi Festival,2030/8/5,none,,apple-native-likely,农历2030年7月7日；你已发现与苹果原生日历可能重复；默认关闭,
+FALSE,ghost-festival-lunar2030,中元节 Ghost Festival,2030/8/13,none,,apple-native-likely,农历2030年7月15日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,mid-autumn-lunar2030,中秋节 Mid-Autumn Festival,2030/9/12,none,,apple-native-likely,农历2030年8月15日；法定节假日/苹果原生日历通常已包含；默认关闭避免重复,
+FALSE,double-ninth-lunar2030,重阳节 Double Ninth Festival,2030/10/5,none,,apple-native-likely,农历2030年9月9日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,laba-lunar2030,腊八节 Laba Festival,2031/1/1,none,,apple-native-likely,农历2030年12月8日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,xiaonian-north-lunar2030,北方小年 Northern Little New Year,2031/1/16,none,,apple-native-likely,农历2030年12月23日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,xiaonian-south-lunar2030,南方小年 Southern Little New Year,2031/1/17,none,,apple-native-likely,农历2030年12月24日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,chuxi-lunar2031,除夕 Chinese New Year’s Eve,2031/1/22,none,,apple-native-likely,农历2031年腊月最后一天；法定节假日/苹果原生日历通常已包含；默认关闭避免重复,
+FALSE,spring-festival-lunar2031,春节 Spring Festival,2031/1/23,none,,apple-native-likely,农历2031年1月1日；法定节假日/苹果原生日历通常已包含；默认关闭避免重复,
+FALSE,lantern-festival-lunar2031,元宵节 Lantern Festival,2031/2/6,none,,apple-native-likely,农历2031年1月15日；苹果中国大陆节假日日历可能已包含；默认关闭避免重复,
+FALSE,dragon-heads-raising-lunar2031,龙抬头 Dragon Heads-raising Day,2031/2/23,none,,apple-native-likely,农历2031年2月2日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,dragon-boat-lunar2031,端午节 Dragon Boat Festival,2031/6/24,none,,apple-native-likely,农历2031年5月5日；法定节假日/苹果原生日历通常已包含；默认关闭避免重复,
+FALSE,qixi-lunar2031,七夕节 Qixi Festival,2031/8/24,none,,apple-native-likely,农历2031年7月7日；你已发现与苹果原生日历可能重复；默认关闭,
+FALSE,ghost-festival-lunar2031,中元节 Ghost Festival,2031/9/1,none,,apple-native-likely,农历2031年7月15日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,mid-autumn-lunar2031,中秋节 Mid-Autumn Festival,2031/10/1,none,,apple-native-likely,农历2031年8月15日；法定节假日/苹果原生日历通常已包含；默认关闭避免重复,
+FALSE,double-ninth-lunar2031,重阳节 Double Ninth Festival,2031/10/24,none,,apple-native-likely,农历2031年9月9日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,laba-lunar2031,腊八节 Laba Festival,2032/1/20,none,,apple-native-likely,农历2031年12月8日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,xiaonian-north-lunar2031,北方小年 Northern Little New Year,2032/2/4,none,,apple-native-likely,农历2031年12月23日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,xiaonian-south-lunar2031,南方小年 Southern Little New Year,2032/2/5,none,,apple-native-likely,农历2031年12月24日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,chuxi-lunar2032,除夕 Chinese New Year’s Eve,2032/2/10,none,,apple-native-likely,农历2032年腊月最后一天；法定节假日/苹果原生日历通常已包含；默认关闭避免重复,
+FALSE,spring-festival-lunar2032,春节 Spring Festival,2032/2/11,none,,apple-native-likely,农历2032年1月1日；法定节假日/苹果原生日历通常已包含；默认关闭避免重复,
+FALSE,lantern-festival-lunar2032,元宵节 Lantern Festival,2032/2/25,none,,apple-native-likely,农历2032年1月15日；苹果中国大陆节假日日历可能已包含；默认关闭避免重复,
+FALSE,dragon-heads-raising-lunar2032,龙抬头 Dragon Heads-raising Day,2032/3/13,none,,apple-native-likely,农历2032年2月2日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,dragon-boat-lunar2032,端午节 Dragon Boat Festival,2032/6/12,none,,apple-native-likely,农历2032年5月5日；法定节假日/苹果原生日历通常已包含；默认关闭避免重复,
+FALSE,qixi-lunar2032,七夕节 Qixi Festival,2032/8/12,none,,apple-native-likely,农历2032年7月7日；你已发现与苹果原生日历可能重复；默认关闭,
+FALSE,ghost-festival-lunar2032,中元节 Ghost Festival,2032/8/20,none,,apple-native-likely,农历2032年7月15日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,mid-autumn-lunar2032,中秋节 Mid-Autumn Festival,2032/9/19,none,,apple-native-likely,农历2032年8月15日；法定节假日/苹果原生日历通常已包含；默认关闭避免重复,
+FALSE,double-ninth-lunar2032,重阳节 Double Ninth Festival,2032/10/12,none,,apple-native-likely,农历2032年9月9日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,laba-lunar2032,腊八节 Laba Festival,2033/1/8,none,,apple-native-likely,农历2032年12月8日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,xiaonian-north-lunar2032,北方小年 Northern Little New Year,2033/1/23,none,,apple-native-likely,农历2032年12月23日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,xiaonian-south-lunar2032,南方小年 Southern Little New Year,2033/1/24,none,,apple-native-likely,农历2032年12月24日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,chuxi-lunar2033,除夕 Chinese New Year’s Eve,2033/1/30,none,,apple-native-likely,农历2033年腊月最后一天；法定节假日/苹果原生日历通常已包含；默认关闭避免重复,
+FALSE,spring-festival-lunar2033,春节 Spring Festival,2033/1/31,none,,apple-native-likely,农历2033年1月1日；法定节假日/苹果原生日历通常已包含；默认关闭避免重复,
+FALSE,lantern-festival-lunar2033,元宵节 Lantern Festival,2033/2/14,none,,apple-native-likely,农历2033年1月15日；苹果中国大陆节假日日历可能已包含；默认关闭避免重复,
+FALSE,dragon-heads-raising-lunar2033,龙抬头 Dragon Heads-raising Day,2033/3/2,none,,apple-native-likely,农历2033年2月2日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,dragon-boat-lunar2033,端午节 Dragon Boat Festival,2033/6/1,none,,apple-native-likely,农历2033年5月5日；法定节假日/苹果原生日历通常已包含；默认关闭避免重复,
+FALSE,qixi-lunar2033,七夕节 Qixi Festival,2033/8/1,none,,apple-native-likely,农历2033年7月7日；你已发现与苹果原生日历可能重复；默认关闭,
+FALSE,ghost-festival-lunar2033,中元节 Ghost Festival,2033/8/9,none,,apple-native-likely,农历2033年7月15日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,mid-autumn-lunar2033,中秋节 Mid-Autumn Festival,2033/9/8,none,,apple-native-likely,农历2033年8月15日；法定节假日/苹果原生日历通常已包含；默认关闭避免重复,
+FALSE,double-ninth-lunar2033,重阳节 Double Ninth Festival,2033/10/1,none,,apple-native-likely,农历2033年9月9日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,laba-lunar2033,腊八节 Laba Festival,2034/1/27,none,,apple-native-likely,农历2033年12月8日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,xiaonian-north-lunar2033,北方小年 Northern Little New Year,2034/2/11,none,,apple-native-likely,农历2033年12月23日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,xiaonian-south-lunar2033,南方小年 Southern Little New Year,2034/2/12,none,,apple-native-likely,农历2033年12月24日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,chuxi-lunar2034,除夕 Chinese New Year’s Eve,2034/2/18,none,,apple-native-likely,农历2034年腊月最后一天；法定节假日/苹果原生日历通常已包含；默认关闭避免重复,
+FALSE,spring-festival-lunar2034,春节 Spring Festival,2034/2/19,none,,apple-native-likely,农历2034年1月1日；法定节假日/苹果原生日历通常已包含；默认关闭避免重复,
+FALSE,lantern-festival-lunar2034,元宵节 Lantern Festival,2034/3/5,none,,apple-native-likely,农历2034年1月15日；苹果中国大陆节假日日历可能已包含；默认关闭避免重复,
+FALSE,dragon-heads-raising-lunar2034,龙抬头 Dragon Heads-raising Day,2034/3/21,none,,apple-native-likely,农历2034年2月2日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,dragon-boat-lunar2034,端午节 Dragon Boat Festival,2034/6/20,none,,apple-native-likely,农历2034年5月5日；法定节假日/苹果原生日历通常已包含；默认关闭避免重复,
+FALSE,qixi-lunar2034,七夕节 Qixi Festival,2034/8/20,none,,apple-native-likely,农历2034年7月7日；你已发现与苹果原生日历可能重复；默认关闭,
+FALSE,ghost-festival-lunar2034,中元节 Ghost Festival,2034/8/28,none,,apple-native-likely,农历2034年7月15日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,mid-autumn-lunar2034,中秋节 Mid-Autumn Festival,2034/9/27,none,,apple-native-likely,农历2034年8月15日；法定节假日/苹果原生日历通常已包含；默认关闭避免重复,
+FALSE,double-ninth-lunar2034,重阳节 Double Ninth Festival,2034/10/20,none,,apple-native-likely,农历2034年9月9日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,laba-lunar2034,腊八节 Laba Festival,2035/1/17,none,,apple-native-likely,农历2034年12月8日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,xiaonian-north-lunar2034,北方小年 Northern Little New Year,2035/2/1,none,,apple-native-likely,农历2034年12月23日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,xiaonian-south-lunar2034,南方小年 Southern Little New Year,2035/2/2,none,,apple-native-likely,农历2034年12月24日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,chuxi-lunar2035,除夕 Chinese New Year’s Eve,2035/2/7,none,,apple-native-likely,农历2035年腊月最后一天；法定节假日/苹果原生日历通常已包含；默认关闭避免重复,
+FALSE,spring-festival-lunar2035,春节 Spring Festival,2035/2/8,none,,apple-native-likely,农历2035年1月1日；法定节假日/苹果原生日历通常已包含；默认关闭避免重复,
+FALSE,lantern-festival-lunar2035,元宵节 Lantern Festival,2035/2/22,none,,apple-native-likely,农历2035年1月15日；苹果中国大陆节假日日历可能已包含；默认关闭避免重复,
+FALSE,dragon-heads-raising-lunar2035,龙抬头 Dragon Heads-raising Day,2035/3/11,none,,apple-native-likely,农历2035年2月2日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,dragon-boat-lunar2035,端午节 Dragon Boat Festival,2035/6/10,none,,apple-native-likely,农历2035年5月5日；法定节假日/苹果原生日历通常已包含；默认关闭避免重复,
+FALSE,qixi-lunar2035,七夕节 Qixi Festival,2035/8/10,none,,apple-native-likely,农历2035年7月7日；你已发现与苹果原生日历可能重复；默认关闭,
+FALSE,ghost-festival-lunar2035,中元节 Ghost Festival,2035/8/18,none,,apple-native-likely,农历2035年7月15日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,mid-autumn-lunar2035,中秋节 Mid-Autumn Festival,2035/9/16,none,,apple-native-likely,农历2035年8月15日；法定节假日/苹果原生日历通常已包含；默认关闭避免重复,
+FALSE,double-ninth-lunar2035,重阳节 Double Ninth Festival,2035/10/9,none,,apple-native-likely,农历2035年9月9日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,laba-lunar2035,腊八节 Laba Festival,2036/1/5,none,,apple-native-likely,农历2035年12月8日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,xiaonian-north-lunar2035,北方小年 Northern Little New Year,2036/1/20,none,,apple-native-likely,农历2035年12月23日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
+FALSE,xiaonian-south-lunar2035,南方小年 Southern Little New Year,2036/1/21,none,,apple-native-likely,农历2035年12月24日；传统节日，苹果原生日历可能已包含；默认关闭避免重复,
