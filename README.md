@@ -8,6 +8,12 @@
 - 额外订阅本日历，用来补充元宵、七夕、重阳、圣诞、情人节等节日。
 - 不包含二十四节气、调休、补班。
 
+## Apple Calendar 订阅链接
+
+```text
+https://wqxyuhuai.github.io/festival-calendar/festival_extra.ics
+```
+
 ## 文件结构
 
 ```text
@@ -73,12 +79,5 @@ CSV 更新
 python scripts/generate_ics.py
 ```
 
-## Apple Calendar 订阅链接
 
-开启 GitHub Pages 后，订阅链接通常是：
 
-```text
-https://你的用户名.github.io/festival-calendar/festival_extra.ics
-```
-
-如果仓库名不是 `festival-calendar`，把上面的仓库名替换成你的实际仓库名。
