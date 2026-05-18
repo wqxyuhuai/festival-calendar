@@ -7,7 +7,7 @@ FALSE,world-wetlands-day,世界湿地日 World Wetlands Day,2026/2/2,yearly,,sus
 FALSE,xiaonian-north-lunar2025,北方小年 Northern Little New Year,2026/2/10,none,,apple-native-likely,农历2025年12月23日；传统节日；默认关闭,
 FALSE,xiaonian-south-lunar2025,南方小年 Southern Little New Year,2026/2/11,none,,apple-native-likely,农历2025年12月24日；传统节日；默认关闭,
 TRUE,valentine-day,情人节 Valentine’s Day,2026/2/14,yearly,,lifestyle,常用生活节日,
-FALSE,chuxi-lunar2025,除夕 Chinese New Year’s Eve,2026/2/16,none,,apple-native-likely,农历2025年12月29日；苹果原生日历通常已包含；默认关闭避免重复,
+FALSE,chuxi-lunar2025,除夕 Chinese New Year’s Eve,2026/2/16,none,,apple-native-likely,农历2025年12月29日；苹果原生日历通常已包含；默认关闭避免重复, 
 FALSE,spring-festival-lunar2026,春节 Spring Festival,2026/2/17,none,,apple-native-likely,农历2026年1月1日；苹果原生日历通常已包含；默认关闭避免重复,
 FALSE,lantern-festival-lunar2026,元宵节 Lantern Festival,2026/3/3,none,,apple-native-likely,农历2026年1月15日；苹果中国大陆日历可能已包含；默认关闭避免重复,
 FALSE,world-wildlife-day,世界野生动植物日 World Wildlife Day,2026/3/3,yearly,,sustainability,生态类细分日期；默认关闭,https://www.un.org/en/observances/world-wildlife-day
