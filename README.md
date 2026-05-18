@@ -9,11 +9,7 @@
 - 不包含二十四节气、调休、补班。
 - 尽量避免与苹果原生「中国节假日」重复。
 
-## Apple Calendar 订阅链接
 
-```text
-https://wqxyuhuai.github.io/festival-calendar/festival_extra.ics
-```
 
 ## Apple Calendar 订阅链接
 
@@ -23,14 +19,14 @@ https://wqxyuhuai.github.io/festival-calendar/festival_extra.ics
 
 ```text
 https://wqxyuhuai.github.io/festival-calendar/festival_extra.ics
-
+```
 
 ###  尝试一键订阅
 
 如果你正在使用 iPhone 或 Mac，可以尝试打开下面这个链接：
 ```text
 webcal://wqxyuhuai.github.io/festival-calendar/festival_extra.ics
-
+```
 
 
 ## 文件结构
@@ -41,6 +37,7 @@ scripts/generate_ics.py          # 自动把 CSV 生成 .ics，不常改
 docs/festival_extra.ics          # 苹果日历订阅的文件，由脚本生成
 .github/workflows/build-calendar.yml  # GitHub Actions 自动生成配置
 ```
+
 
 ## CSV 字段说明
 
@@ -54,6 +51,8 @@ docs/festival_extra.ics          # 苹果日历订阅的文件，由脚本生成
 | rrule | FREQ=YEARLY;BYMONTH=5;BYDAY=2SU | 只有 repeat=rrule 时填写 |
 | category | international | 分类，仅用于备注 |
 | note | 公历固定节日 | 备注，会写入 DESCRIPTION |
+
+
 
 ## 常见维护方式
 
@@ -79,7 +78,6 @@ TRUE,lantern-lunar2036,元宵节,2036-02-11,none,,lunar,农历正月十五
 ```csv
 FALSE,valentine,情人节,2026-02-14,yearly,,international,公历固定节日；每年重复
 ```
-
 
 
 ## Note
