@@ -101,14 +101,14 @@ def build_event(row, row_number):
     dtstart = normalize_date(date, row_number, event_id)
 
     description_parts = []
-    if category:
-        description_parts.append(f"Category: {category}")
+
+    # Only show the user-facing note in iOS Calendar.
+    # Keep category and source_url in CSV for maintenance, but do not display them in event notes.
     if note:
         description_parts.append(note)
-    if source_url:
-        description_parts.append(f"Source: {source_url}")
 
-    description = "\\n".join(description_parts)
+    description = "\n".join(description_parts)
+    
 
     lines = [
         "BEGIN:VEVENT",
