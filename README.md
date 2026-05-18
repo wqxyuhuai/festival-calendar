@@ -5,14 +5,33 @@
 设计目的：
 
 - 保留苹果自带「中国节假日」日历，用来显示放假、调休、补班。
-- 额外订阅本日历，用来补充元宵、七夕、重阳、圣诞、情人节等节日。
+- 额外订阅本日历，用来补充常用生活节日、海外节日、营销节点，以及 ESG / 环境 / 能源相关纪念日。
 - 不包含二十四节气、调休、补班。
+- 尽量避免与苹果原生「中国节假日」重复。
 
 ## Apple Calendar 订阅链接
 
 ```text
 https://wqxyuhuai.github.io/festival-calendar/festival_extra.ics
 ```
+
+## Apple Calendar 订阅链接
+
+### 手动订阅链接
+
+复制下面链接，在 iPhone / Apple Calendar 中添加为「订阅日历」：
+
+```text
+https://wqxyuhuai.github.io/festival-calendar/festival_extra.ics
+
+
+###  尝试一键订阅
+
+如果你正在使用 iPhone 或 Mac，可以尝试打开下面这个链接：
+```text
+webcal://wqxyuhuai.github.io/festival-calendar/festival_extra.ics
+
+
 
 ## 文件结构
 
@@ -61,23 +80,12 @@ TRUE,lantern-lunar2036,元宵节,2036-02-11,none,,lunar,农历正月十五
 FALSE,valentine,情人节,2026-02-14,yearly,,international,公历固定节日；每年重复
 ```
 
-## 生成方式
 
-GitHub Actions 会在 `data/festivals.csv` 被修改后自动运行：
 
-```text
-CSV 更新
-↓
-自动运行 scripts/generate_ics.py
-↓
-自动更新 docs/festival_extra.ics
+## Note
+
+本日历为个人维护的节日补充日历，不是官方节假日日历。  
+它不包含放假安排、调休、补班和二十四节气。  
+如需查看中国大陆法定节假日和调休安排，请继续保留苹果自带「中国节假日」日历。
 ```
-
-如需手动生成，也可以运行：
-
-```bash
-python scripts/generate_ics.py
-```
-
-
 
