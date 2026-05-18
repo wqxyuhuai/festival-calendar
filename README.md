@@ -21,12 +21,13 @@
 https://wqxyuhuai.github.io/festival-calendar/festival_extra.ics
 ```
 
-###  尝试一键订阅
+### 尝试一键订阅
 
 如果你正在使用 iPhone 或 Mac，可以尝试打开下面这个链接：
 ```text
 webcal://wqxyuhuai.github.io/festival-calendar/festival_extra.ics
 ```
+如果没有自动打开日历，请使用上面的 HTTPS 链接手动添加。
 
 
 ## 文件结构
@@ -46,11 +47,11 @@ docs/festival_extra.ics          # 苹果日历订阅的文件，由脚本生成
 | enabled | TRUE | 是否启用，FALSE 会被忽略 |
 | id | valentine | 唯一 ID，只用英文、数字、下划线、连字符 |
 | name | 情人节 | 日历里显示的名称 |
-| date | 2026-02-14 | 日期，必须是 YYYY-MM-DD |
+| date | 2026-02-14 | 日期，推荐使用 YYYY-MM-DD；也兼容 YYYY/M/D 和 YYYY.M.D |
 | repeat | yearly | `yearly` 每年重复，`none` 只出现一次，`rrule` 使用自定义规则 |
 | rrule | FREQ=YEARLY;BYMONTH=5;BYDAY=2SU | 只有 repeat=rrule 时填写 |
-| category | international | 分类，仅用于备注 |
-| note | 公历固定节日 | 备注，会写入 DESCRIPTION |
+| category | international | 分类，仅用于维护，不会显示在日历详情中 |
+| note | 公历固定节日 | 备注，会显示在 iOS 日历详情中 |
 
 
 
@@ -85,5 +86,4 @@ FALSE,valentine,情人节,2026-02-14,yearly,,international,公历固定节日；
 本日历为个人维护的节日补充日历，不是官方节假日日历。  
 它不包含放假安排、调休、补班和二十四节气。  
 如需查看中国大陆法定节假日和调休安排，请继续保留苹果自带「中国节假日」日历。
-```
 
