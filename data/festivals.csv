@@ -54,7 +54,7 @@ FALSE,world-habitat-day,世界人居日 World Habitat Day,2026/10/5,rrule,FREQ=Y
 FALSE,world-mental-health-day,世界精神卫生日 World Mental Health Day,2026/10/10,yearly,,international,大众健康关怀主题,https://www.who.int/campaigns/world-mental-health-day
 FALSE,disaster-risk-reduction-day,国际减灾日 International Day for Disaster Risk Reduction,2026/10/13,yearly,,sustainability,安全/韧性类细分日期；默认关闭,https://www.un.org/en/observances/disaster-reduction-day
 FALSE,world-food-day,世界粮食日 World Food Day,2026/10/16,yearly,,sustainability,大众认知较高；可持续发展主题,https://www.un.org/en/observances/world-food-day
-TRUE,double-ninth-lunar2026,重阳节 Double Ninth Festival,2026/10/18,none,,lunar,农历2026年9月9日；传统节日；保留,
+FALSE,double-ninth-lunar2026,重阳节 Double Ninth Festival,2026/10/18,none,,lunar,农历2026年9月9日；传统节日；保留,
 FALSE,united-nations-day,联合国日 United Nations Day,2026/10/24,yearly,,international,国际日；默认关闭,https://www.un.org/en/observances/un-day
 TRUE,halloween,万圣夜 Halloween,2026/10/31,yearly,,lifestyle,常用西方节日,
 FALSE,world-cities-day,世界城市日 World Cities Day,2026/10/31,yearly,,sustainability,城市可持续发展类日期；默认关闭,https://www.un.org/en/observances/cities-day
