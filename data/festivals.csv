@@ -57,6 +57,7 @@ FALSE,world-food-day,世界粮食日 World Food Day,2026/10/16,yearly,,sustainab
 FALSE,double-ninth-lunar2026,重阳节 Double Ninth Festival,2026/10/18,none,,lunar,农历2026年9月9日；传统节日；保留,
 FALSE,united-nations-day,联合国日 United Nations Day,2026/10/24,yearly,,international,国际日；默认关闭,https://www.un.org/en/observances/un-day
 TRUE,halloween,万圣夜 Halloween,2026/10/31,yearly,,lifestyle,常用西方节日,
+TRUE,halloween,万圣节 Halloween,2026/10/31,yearly,,lifestyle,常用西方节日,
 FALSE,world-cities-day,世界城市日 World Cities Day,2026/10/31,yearly,,sustainability,城市可持续发展类日期；默认关闭,https://www.un.org/en/observances/cities-day
 FALSE,world-science-day,世界科学日 World Science Day for Peace and Development,2026/11/10,yearly,,international,科技/教育主题；外企环境可保留,https://www.unesco.org/en/days/science-peace-development
 FALSE,world-toilet-day,世界厕所日 World Toilet Day,2026/11/19,yearly,,sustainability,公共卫生类国际日；默认关闭,https://www.un.org/en/observances/toilet-day
