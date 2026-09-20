@@ -1,0 +1,2 @@
+# Preserve RFC 5545 CRLF and significant whitespace at fold boundaries.
+chinese-calendar/daily.ics -text whitespace=-blank-at-eol,cr-at-eol

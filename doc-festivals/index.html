@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>节日补充日历</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #252525; background: #fff; margin: 0; line-height: 1.8; }
+    main { max-width: 760px; padding: 32px 20px 56px; margin: auto; }
+    nav { display: flex; gap: 24px; flex-wrap: wrap; border-bottom: 1px solid #ddd; padding-bottom: 16px; }
+    a { color: #17664a; text-underline-offset: 4px; overflow-wrap: anywhere; }
+    h1 { font-size: 28px; margin: 32px 0 8px; }
+    h2 { font-size: 19px; margin-top: 28px; }
+    .subscribe { display: inline-block; padding: 10px 18px; background: #17664a; color: white; border-radius: 6px; text-decoration: none; }
+    .url { overflow-wrap: anywhere; padding: 12px 0; font-family: ui-monospace, monospace; font-size: 14px; }
+    footer { border-top: 1px solid #ddd; margin-top: 32px; padding-top: 16px; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <main>
+    <nav aria-label="日历项目">
+      <a href="/festival-calendar/festivals/" aria-current="page">节日补充</a>
+      <a href="/festival-calendar/chinese-calendar/">每日黄历</a>
+    </nav>
+    <h1>节日补充日历</h1>
+    <p>生活节日、国际纪念日与部分传统节日。与苹果自带的「中国节假日」日历搭配使用。</p>
+    <p><a class="subscribe" href="webcal://wqxyuhuai.github.io/festival-calendar/festival_extra.ics">订阅节日补充</a></p>
+    <h2>订阅地址</h2>
+    <p class="url"><a href="https://wqxyuhuai.github.io/festival-calendar/festival_extra.ics">https://wqxyuhuai.github.io/festival-calendar/festival_extra.ics</a></p>
+    <p>已订阅的用户无需重新添加，原地址持续有效。若未自动打开日历，可将上方地址添加为订阅日历。</p>
+    <h2>包含哪些内容</h2>
+    <p>情人节、母亲节、父亲节、中国医师节、中元节、龙抬头、重阳节、感恩节、黑色星期五等。一次性节日数据覆盖至 2300 年。</p>
+    <p>不包含放假安排、调休、补班和二十四节气，请保留苹果自带的「中国节假日」日历。</p>
+    <footer><a href="https://github.com/wqxyuhuai/festival-calendar">GitHub 项目</a> · 个人维护，非官方节假日日历</footer>
+  </main>
+</body>
+</html>

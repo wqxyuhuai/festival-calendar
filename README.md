@@ -1,89 +1,41 @@
-# 节日补充日历｜Festival Supplement Calendar
+# 苹果日历补充订阅
 
-这是一个给 Apple Calendar / iPhone 日历订阅用的节日补充日历。
+两个独立订阅：节日补充与每日黄历（Chinese calendar）。可以单独订阅，也可以同时使用。
 
-设计目的：
+| 日历 | 订阅地址 |
+| --- | --- |
+| 节日补充 | https://wqxyuhuai.github.io/festival-calendar/festival_extra.ics |
+| 每日黄历 | https://wqxyuhuai.github.io/festival-calendar/chinese-calendar/daily.ics |
 
-- 保留苹果自带「中国节假日」日历，用来显示放假、调休、补班。
-- 额外订阅本日历，用来补充常用生活节日、海外节日、营销节点，以及 ESG / 环境 / 能源相关纪念日。
-- 不包含二十四节气、调休、补班。
-- 尽量避免与苹果原生「中国节假日」重复。
+原节日订阅地址永久保留，已订阅用户无需重新添加。请以「订阅日历」方式添加，下载导入不能持续更新。
 
-
-
-## Apple Calendar 订阅链接
-
-### 手动订阅链接
-
-复制下面链接，在 iPhone / Apple Calendar 中添加为「订阅日历」：
+## 目录
 
 ```text
-https://wqxyuhuai.github.io/festival-calendar/festival_extra.ics
+festivals/                 节日数据、生成器、订阅文件
+chinese-calendar/          黄历配置、生成器、订阅文件和数据快照
+doc-festivals/             节日文档与订阅页面
+doc-chinese-calendar/      黄历文档与订阅页面
+scripts/                  共用网站组装工具
+tests/                    日期、ICS 与发布兼容性测试
+.github/workflows/        自动生成与 GitHub Pages 发布
 ```
 
-### 尝试一键订阅
+- [节日维护说明](doc-festivals/README.md)
+- [黄历数据与维护说明](doc-chinese-calendar/README.md)
 
-如果你正在使用 iPhone 或 Mac，可以尝试打开下面这个链接：
-```text
-webcal://wqxyuhuai.github.io/festival-calendar/festival_extra.ics
-```
-如果没有自动打开日历，请使用上面的 HTTPS 链接手动添加。
+## 生成与检查
 
+需要 Python 3.12：
 
-## 文件结构
-
-```text
-data/festivals.csv              # 平时只需要维护这个表格
-scripts/generate_ics.py          # 自动把 CSV 生成 .ics，不常改
-docs/festival_extra.ics          # 苹果日历订阅的文件，由脚本生成
-.github/workflows/build-calendar.yml  # GitHub Actions 自动生成配置
+```sh
+python -m pip install -r chinese-calendar/requirements.txt
+python festivals/generate.py
+python -m unittest discover -s tests -v
+python chinese-calendar/generate.py
+python scripts/build_site.py
 ```
 
+`_site/` 为临时发布目录，不提交到仓库。GitHub Pages 的构建来源设置为 **GitHub Actions**。发布流程每天北京时间 03:17 定时运行，也可手动触发；GitHub 定时任务可能延迟。公开仓库长期无活动时 GitHub 可能暂停定时任务，需留意 Actions 状态。
 
-## CSV 字段说明
-
-| 字段 | 示例 | 说明 |
-|---|---|---|
-| enabled | TRUE | 是否启用，FALSE 会被忽略 |
-| id | valentine | 唯一 ID，只用英文、数字、下划线、连字符 |
-| name | 情人节 | 日历里显示的名称 |
-| date | 2026-02-14 | 日期，推荐使用 YYYY-MM-DD；也兼容 YYYY/M/D 和 YYYY.M.D |
-| repeat | yearly | `yearly` 每年重复，`none` 只出现一次，`rrule` 使用自定义规则 |
-| rrule | FREQ=YEARLY;BYMONTH=5;BYDAY=2SU | 只有 repeat=rrule 时填写 |
-| category | international | 分类，仅用于维护，不会显示在日历详情中 |
-| note | 公历固定节日 | 备注，会显示在 iOS 日历详情中 |
-
-
-
-## 常见维护方式
-
-### 1. 新增一个公历固定节日
-
-```csv
-enabled,id,name,date,repeat,rrule,category,note
-TRUE,example-day,示例节日,2026-05-20,yearly,,modern,每年5月20日
-```
-
-### 2. 新增一个农历节日
-
-农历节日不要用 yearly，因为每年对应公历日期不同。建议每年写一条：
-
-```csv
-TRUE,lantern-lunar2036,元宵节,2036-02-11,none,,lunar,农历正月十五
-```
-
-### 3. 暂时隐藏一个节日
-
-把 enabled 改成 FALSE 即可：
-
-```csv
-FALSE,valentine,情人节,2026-02-14,yearly,,international,公历固定节日；每年重复
-```
-
-
-## Note
-
-本日历为个人维护的节日补充日历，不是官方节假日日历。  
-它不包含放假安排、调休、补班和二十四节气。  
-如需查看中国大陆法定节假日和调休安排，请继续保留苹果自带「中国节假日」日历。
-
+节日源数据没有变化时不重写订阅文件。发布脚本将其原样复制到网站根目录的 `festival_extra.ics`。黄历失败时使用上次成功版本，并让工作流报告失败；节日仍可发布。关注失败通知，避免保留版本超过未来 60 天的覆盖范围。

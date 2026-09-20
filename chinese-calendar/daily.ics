@@ -1,0 +1,870 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//WQXYUHUAI//Chinese calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:每日黄历 · Chinese calendar
+X-WR-TIMEZONE:Asia/Shanghai
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:chinese-calendar-2026-09-13@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260914
+SUMMARY:黄历 · 八月初三
+DESCRIPTION:📅 农历\n八月初三\n\n🗓️ 干支\n丙午年 丁酉
+ 月 庚寅日\n\n✅ 宜\n解除、坏垣、馀事勿取\n\n❌ 忌\n诸
+ 事不宜\n\n🔎 值神\n青龙 · 黄道日 · 吉
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-09-14@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
+SUMMARY:黄历 · 八月初四
+DESCRIPTION:📅 农历\n八月初四\n\n🗓️ 干支\n丙午年 丁酉
+ 月 辛卯日\n\n✅ 宜\n祭祀、治病、破屋、坏垣、馀事勿取
+ \n\n❌ 忌\n诸事不宜\n\n🔎 值神\n明堂 · 黄道日 · 吉
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-09-15@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+SUMMARY:黄历 · 八月初五
+DESCRIPTION:📅 农历\n八月初五\n\n🗓️ 干支\n丙午年 丁酉
+ 月 壬辰日\n\n✅ 宜\n嫁娶、纳采、订盟、祭祀、开光、出
+ 行、理发、作梁、出火、拆卸、修造、动土、进人口、
+ 入宅、移徙、安床、挂匾、栽种、纳畜、破土、安葬、
+ 入殓、除服、成服\n\n❌ 忌\n开市、掘井、开渠、造桥、
+ 造船\n\n🔎 值神\n天刑 · 黑道日 · 凶
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-09-16@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
+SUMMARY:黄历 · 八月初六
+DESCRIPTION:📅 农历\n八月初六\n\n🗓️ 干支\n丙午年 丁酉
+ 月 癸巳日\n\n✅ 宜\n开市、交易、立券、纳财、挂匾、栽
+ 种、祭祀、祈福、开光、拆卸、动土、安床\n\n❌ 忌\n嫁
+ 娶、破土、进人口、出行、入宅、移徙、出火、纳畜、
+ 词讼、安葬\n\n🔎 值神\n朱雀 · 黑道日 · 凶
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-09-17@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:黄历 · 八月初七
+DESCRIPTION:📅 农历\n八月初七\n\n🗓️ 干支\n丙午年 丁酉
+ 月 甲午日\n\n✅ 宜\n嫁娶、祭祀、理发、进人口、作灶、
+ 移柩、冠笄、会亲友\n\n❌ 忌\n开仓、出货财、伐木、纳
+ 畜、开市、上梁、盖屋、破土、启钻、栽种\n\n🔎 值神\n
+ 金匮 · 黄道日 · 吉
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-09-18@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+SUMMARY:黄历 · 八月初八
+DESCRIPTION:📅 农历\n八月初八\n\n🗓️ 干支\n丙午年 丁酉
+ 月 乙未日\n\n✅ 宜\n祭祀、修坟、除服、成服、启钻、移
+ 柩、馀事勿取\n\n❌ 忌\n开市、入宅、嫁娶、动土、破土
+ 、安葬\n\n🔎 值神\n天德 · 黄道日 · 吉
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-09-19@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+SUMMARY:黄历 · 八月初九
+DESCRIPTION:📅 农历\n八月初九\n\n🗓️ 干支\n丙午年 丁酉
+ 月 丙申日\n\n✅ 宜\n嫁娶、冠笄、安机械、解除、纳畜、
+ 牧养、沐浴、伐木、架马、作梁、安门、扫舍、合寿木
+ 、安葬、启钻、立碑、修坟\n\n❌ 忌\n祈福、开光、开市
+ 、入宅、动土\n\n🔎 值神\n白虎 · 黑道日 · 凶
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-09-20@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260921
+SUMMARY:黄历 · 八月初十
+DESCRIPTION:📅 农历\n八月初十\n\n🗓️ 干支\n丙午年 丁酉
+ 月 丁酉日\n\n✅ 宜\n祭祀、出行、沐浴、扫舍、安葬、馀
+ 事勿取\n\n❌ 忌\n动土、破土、置产、掘井\n\n🔎 值神\n
+ 玉堂 · 黄道日 · 吉
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-09-21@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:黄历 · 八月十一
+DESCRIPTION:📅 农历\n八月十一\n\n🗓️ 干支\n丙午年 丁酉
+ 月 戊戌日\n\n✅ 宜\n嫁娶、纳采、祭祀、解除、出行、修
+ 造、动土、开市、上梁、安床、整手足甲、扫舍、求医
+ 、治病、起基、定磉、盖屋、合脊\n\n❌ 忌\n造庙、行丧
+ 、安葬、伐木、作灶、造船\n\n🔎 值神\n天牢 · 黑道日 
+ · 凶
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-09-22@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260923
+SUMMARY:黄历 · 八月十二
+DESCRIPTION:📅 农历\n八月十二\n\n🗓️ 干支\n丙午年 丁酉
+ 月 己亥日\n\n✅ 宜\n纳采、订盟、开市、交易、立券、挂
+ 匾、纳财、栽种、进人口、入宅、移徙、安床、开光、
+ 出火、拆卸、安门、修造\n\n❌ 忌\n斋醮、嫁娶、行丧、
+ 动土、作灶、安葬、破土\n\n🔎 值神\n玄武 · 黑道日 · 
+ 凶
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-09-23@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
+SUMMARY:黄历 · 八月十三
+DESCRIPTION:📅 农历\n八月十三\n\n🗓️ 干支\n丙午年 丁酉
+ 月 庚子日\n\n✅ 宜\n祭祀、沐浴、修饰垣墙、平治道涂、
+ 馀事勿取\n\n❌ 忌\n嫁娶、入宅、安床、出行\n\n🔎 值神\
+ n司命 · 黄道日 · 吉
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-09-24@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:黄历 · 八月十四
+DESCRIPTION:📅 农历\n八月十四\n\n🗓️ 干支\n丙午年 丁酉
+ 月 辛丑日\n\n✅ 宜\n开光、祈福、求嗣、斋醮、修造、动
+ 土、纳财、造仓、开厕、栽种、牧养、会亲友\n\n❌ 忌\n
+ 作灶、出火、进人口、开渠、入宅、移徙、祭祀\n\n🔎 
+ 值神\n勾陈 · 黑道日 · 凶
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-09-25@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:黄历 · 八月十五
+DESCRIPTION:📅 农历\n八月十五\n\n🗓️ 干支\n丙午年 丁酉
+ 月 壬寅日\n\n✅ 宜\n开光、解除、拆卸、修造、动土、竖
+ 柱、安门、牧养、安葬、修坟、破土、移柩\n\n❌ 忌\n出
+ 火、入宅、移徙、祈福、祭祀、安床、开市、嫁娶、探
+ 病\n\n🔎 值神\n青龙 · 黄道日 · 吉
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-09-26@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:黄历 · 八月十六
+DESCRIPTION:📅 农历\n八月十六\n\n🗓️ 干支\n丙午年 丁酉
+ 月 癸卯日\n\n✅ 宜\n破屋、坏垣、求医、治病、馀事勿取
+ \n\n❌ 忌\n移徙、入宅\n\n🔎 值神\n明堂 · 黄道日 · 吉
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-09-27@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:黄历 · 八月十七
+DESCRIPTION:📅 农历\n八月十七\n\n🗓️ 干支\n丙午年 丁酉
+ 月 甲辰日\n\n✅ 宜\n嫁娶、纳采、订盟、祭祀、祈福、求
+ 嗣、开光、出行、出火、拆卸、修造、动土、进人口、
+ 入宅、移徙、安床、上梁、合脊、放水、掘井、破土、
+ 移柩、谢土、除服、成服\n\n❌ 忌\n开市、开仓、安门、
+ 安葬\n\n🔎 值神\n天刑 · 黑道日 · 凶
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-09-28@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20260929
+SUMMARY:黄历 · 八月十八
+DESCRIPTION:📅 农历\n八月十八\n\n🗓️ 干支\n丙午年 丁酉
+ 月 乙巳日\n\n✅ 宜\n嫁娶、纳采、订盟、祭祀、祈福、求
+ 嗣、开光、解除、进人口、入宅、移徙、出火、安床、
+ 开市、交易、立券、挂匾\n\n❌ 忌\n安葬、纳畜、出行、
+ 行丧、伐木、栽种、造庙、造桥\n\n🔎 值神\n朱雀 · 黑
+ 道日 · 凶
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-09-29@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+SUMMARY:黄历 · 八月十九
+DESCRIPTION:📅 农历\n八月十九\n\n🗓️ 干支\n丙午年 丁酉
+ 月 丙午日\n\n✅ 宜\n祭祀、冠笄、捕捉、馀事勿取\n\n❌ 
+ 忌\n嫁娶、开市、盖屋、作梁、合寿木\n\n🔎 值神\n金匮 
+ · 黄道日 · 吉
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-09-30@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:黄历 · 八月二十
+DESCRIPTION:📅 农历\n八月二十\n\n🗓️ 干支\n丙午年 丁酉
+ 月 丁未日\n\n✅ 宜\n祭祀、解除、结网、畋猎、取渔、会
+ 亲友、入学、移柩、启钻、除服、成服\n\n❌ 忌\n开市、
+ 祈福、动土、破土、入殓、安葬、造船\n\n🔎 值神\n天德
+  · 黄道日 · 吉
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-10-01@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:黄历 · 八月廿一
+DESCRIPTION:📅 农历\n八月廿一\n\n🗓️ 干支\n丙午年 丁酉
+ 月 戊申日\n\n✅ 宜\n冠笄、沐浴、出行、修造、动土、移
+ 徙、入宅、破土、安葬\n\n❌ 忌\n嫁娶、开市、祭祀、祈
+ 福、斋醮、纳采、修坟\n\n🔎 值神\n白虎 · 黑道日 · 凶
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-10-02@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:黄历 · 八月廿二
+DESCRIPTION:📅 农历\n八月廿二\n\n🗓️ 干支\n丙午年 丁酉
+ 月 己酉日\n\n✅ 宜\n祭祀、出行\n\n❌ 忌\n嫁娶、入宅、
+ 修造、动土、会亲友、破土\n\n🔎 值神\n玉堂 · 黄道日 
+ · 吉
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-10-03@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:黄历 · 八月廿三
+DESCRIPTION:📅 农历\n八月廿三\n\n🗓️ 干支\n丙午年 丁酉
+ 月 庚戌日\n\n✅ 宜\n嫁娶、订盟、纳采、祭祀、祈福、出
+ 行、修造、动土、移徙、入宅\n\n❌ 忌\n针灸、伐木、作
+ 梁、造庙、行丧、安葬\n\n🔎 值神\n天牢 · 黑道日 · 凶
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-10-04@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:黄历 · 八月廿四
+DESCRIPTION:📅 农历\n八月廿四\n\n🗓️ 干支\n丙午年 丁酉
+ 月 辛亥日\n\n✅ 宜\n出行、开市、交易、立券、安机械、
+ 出火、上梁、移徙\n\n❌ 忌\n嫁娶、安葬、动土、造桥\n\n
+ 🔎 值神\n玄武 · 黑道日 · 凶
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-10-05@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:黄历 · 八月廿五
+DESCRIPTION:📅 农历\n八月廿五\n\n🗓️ 干支\n丙午年 丁酉
+ 月 壬子日\n\n✅ 宜\n祭祀、沐浴、修饰垣墙、平治道涂、
+ 馀事勿取\n\n❌ 忌\n斋醮、嫁娶、移徙、出行、上梁、入
+ 宅\n\n🔎 值神\n司命 · 黄道日 · 吉
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-10-06@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+SUMMARY:黄历 · 八月廿六
+DESCRIPTION:📅 农历\n八月廿六\n\n🗓️ 干支\n丙午年 丁酉
+ 月 癸丑日\n\n✅ 宜\n嫁娶、造车器、安机械、祭祀、祈福
+ 、开光、安香、出火、出行、开市、立券、修造、动土
+ 、移徙、入宅、破土、安葬\n\n❌ 忌\n纳采、订盟、架马
+ 、词讼、开渠\n\n🔎 值神\n勾陈 · 黑道日 · 凶
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-10-07@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+SUMMARY:黄历 · 八月廿七
+DESCRIPTION:📅 农历\n八月廿七\n\n🗓️ 干支\n丙午年 丁酉
+ 月 甲寅日\n\n✅ 宜\n沐浴、捕捉、入殓、除服、成服、破
+ 土、启钻、安葬\n\n❌ 忌\n祭祀、嫁娶、安床、开市、入
+ 宅、探病、上梁\n\n🔎 值神\n青龙 · 黄道日 · 吉
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-10-08@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:黄历 · 八月廿八
+DESCRIPTION:📅 农历\n八月廿八\n\n🗓️ 干支\n丙午年 戊戌
+ 月 乙卯日\n\n✅ 宜\n祭祀、入殓、移柩、开生坟、破土、
+ 启钻、安葬、除服、成服、馀事勿取\n\n❌ 忌\n无\n\n🔎 
+ 值神\n勾陈 · 黑道日 · 凶
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-10-09@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:黄历 · 八月廿九
+DESCRIPTION:📅 农历\n八月廿九\n\n🗓️ 干支\n丙午年 戊戌
+ 月 丙辰日\n\n✅ 宜\n祭祀、解除、破屋、坏垣、馀事勿取
+ \n\n❌ 忌\n诸事不宜\n\n🔎 值神\n青龙 · 黄道日 · 吉
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-10-10@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:黄历 · 九月初一
+DESCRIPTION:📅 农历\n九月初一\n\n🗓️ 干支\n丙午年 戊戌
+ 月 丁巳日\n\n✅ 宜\n嫁娶、求嗣、纳采、进人口、纳财、
+ 结网、纳畜、牧养、会亲友\n\n❌ 忌\n上梁、作灶、伐木
+ 、出行、安葬、安门、理发\n\n🔎 值神\n明堂 · 黄道日 
+ · 吉
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-10-11@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:黄历 · 九月初二
+DESCRIPTION:📅 农历\n九月初二\n\n🗓️ 干支\n丙午年 戊戌
+ 月 戊午日\n\n✅ 宜\n嫁娶、祭祀、开市、开光、出行、入
+ 宅、移徙、出火、拆卸、修造、安床\n\n❌ 忌\n纳畜、伐
+ 木、置产、作梁、行丧、安葬、修坟、立碑\n\n🔎 值神\n
+ 天刑 · 黑道日 · 凶
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-10-12@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:黄历 · 九月初三
+DESCRIPTION:📅 农历\n九月初三\n\n🗓️ 干支\n丙午年 戊戌
+ 月 己未日\n\n✅ 宜\n嫁娶、祭祀、作灶、纳财\n\n❌ 忌\n
+ 安葬、开市、修坟、立碑\n\n🔎 值神\n朱雀 · 黑道日 · 
+ 凶
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-10-13@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:黄历 · 九月初四
+DESCRIPTION:📅 农历\n九月初四\n\n🗓️ 干支\n丙午年 戊戌
+ 月 庚申日\n\n✅ 宜\n嫁娶、祭祀、祈福、求嗣、开光、出
+ 行、解除、出火、进人口、开市、交易、立券、挂匾、
+ 纳财、入宅、移徙、栽种、破土、谢土\n\n❌ 忌\n安床、
+ 安葬\n\n🔎 值神\n金匮 · 黄道日 · 吉
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-10-14@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+SUMMARY:黄历 · 九月初五
+DESCRIPTION:📅 农历\n九月初五\n\n🗓️ 干支\n丙午年 戊戌
+ 月 辛酉日\n\n✅ 宜\n嫁娶、祭祀、祈福、求嗣、动土、安
+ 床、扫舍、入殓、移柩、破土、启钻、安葬、作灶、整
+ 手足甲、补垣、除服、成服\n\n❌ 忌\n开光、栽种\n\n🔎 
+ 值神\n天德 · 黄道日 · 吉
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-10-15@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:黄历 · 九月初六
+DESCRIPTION:📅 农历\n九月初六\n\n🗓️ 干支\n丙午年 戊戌
+ 月 壬戌日\n\n✅ 宜\n祭祀、祈福、求嗣、开光、出行、解
+ 除、上梁、入宅、移徙、安床、安门、纳财、纳畜、造
+ 畜稠\n\n❌ 忌\n伐木、行丧、破土、嫁娶、安葬、开渠\n\n
+ 🔎 值神\n白虎 · 黑道日 · 凶
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-10-16@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:黄历 · 九月初七
+DESCRIPTION:📅 农历\n九月初七\n\n🗓️ 干支\n丙午年 戊戌
+ 月 癸亥日\n\n✅ 宜\n祭祀、开光、出行、解除、理发、伐
+ 木、出火、拆卸、上梁、合脊、安床、造畜稠\n\n❌ 忌\n
+ 嫁娶、安葬、行丧、词讼、造桥、作灶、破土、动土\n\n
+ 🔎 值神\n玉堂 · 黄道日 · 吉
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-10-17@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:黄历 · 九月初八
+DESCRIPTION:📅 农历\n九月初八\n\n🗓️ 干支\n丙午年 戊戌
+ 月 甲子日\n\n✅ 宜\n纳采、订盟、会亲友、沐浴、理发、
+ 裁衣、冠笄、安床、除服、成服、启钻、移柩、安葬、
+ 开生坟\n\n❌ 忌\n开市、入宅、出行、嫁娶、修坟、祈福
+ 、动土、安门、谢土、上梁\n\n🔎 值神\n天牢 · 黑道日 
+ · 凶
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-10-18@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:黄历 · 九月初九
+DESCRIPTION:📅 农历\n九月初九\n\n🗓️ 干支\n丙午年 戊戌
+ 月 乙丑日\n\n✅ 宜\n解除、祭祀、修饰垣墙、平治道涂、
+ 造畜稠、馀事勿取\n\n❌ 忌\n嫁娶、开市、交易、入宅、
+ 入学、安葬\n\n🔎 值神\n玄武 · 黑道日 · 凶
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-10-19@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:黄历 · 九月初十
+DESCRIPTION:📅 农历\n九月初十\n\n🗓️ 干支\n丙午年 戊戌
+ 月 丙寅日\n\n✅ 宜\n入殓、破土、启钻、安葬、除服、成
+ 服、馀事勿取\n\n❌ 忌\n开市、入宅、祭祀、置产、补垣
+ 、塞穴\n\n🔎 值神\n司命 · 黄道日 · 吉
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-10-20@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:黄历 · 九月十一
+DESCRIPTION:📅 农历\n九月十一\n\n🗓️ 干支\n丙午年 戊戌
+ 月 丁卯日\n\n✅ 宜\n嫁娶、祭祀、祈福、求嗣、开光、出
+ 行、拆卸、修造、动土、上梁、安床、纳畜、入殓、破
+ 土\n\n❌ 忌\n入宅、移徙、掘井、理发、伐木、交易、开
+ 市、作灶\n\n🔎 值神\n勾陈 · 黑道日 · 凶
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-10-21@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:黄历 · 九月十二
+DESCRIPTION:📅 农历\n九月十二\n\n🗓️ 干支\n丙午年 戊戌
+ 月 戊辰日\n\n✅ 宜\n祭祀、沐浴、破屋、坏垣、馀事勿取
+ \n\n❌ 忌\n嫁娶、入宅、上梁、出行、安葬\n\n🔎 值神\n
+ 青龙 · 黄道日 · 吉
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-10-22@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:黄历 · 九月十三
+DESCRIPTION:📅 农历\n九月十三\n\n🗓️ 干支\n丙午年 戊戌
+ 月 己巳日\n\n✅ 宜\n祭祀、求嗣、冠笄、进人口、会亲友
+ 、安门、安床、经络、纳财、牧养、畋猎、放水、割蜜\n
+ \n❌ 忌\n祈福、斋醮、纳采、订盟、嫁娶、入宅、安葬\n\
+ n🔎 值神\n明堂 · 黄道日 · 吉
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-10-23@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:黄历 · 九月十四
+DESCRIPTION:📅 农历\n九月十四\n\n🗓️ 干支\n丙午年 戊戌
+ 月 庚午日\n\n✅ 宜\n嫁娶、纳采、订盟、开市、交易、立
+ 券、挂匾、祭祀、祈福、开光、造车器、出行、入宅、
+ 移徙、安床、安门、拆卸、修造、动土、栽种、安葬、
+ 破土、启钻、除服、成服、入殓、立碑\n\n❌ 忌\n探病、
+ 纳畜、伐木、起基、作梁、盖屋\n\n🔎 值神\n天刑 · 黑
+ 道日 · 凶
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-10-24@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:黄历 · 九月十五
+DESCRIPTION:📅 农历\n九月十五\n\n🗓️ 干支\n丙午年 戊戌
+ 月 辛未日\n\n✅ 宜\n祭祀、冠笄、移徙、会亲友、纳财、
+ 理发、捕捉\n\n❌ 忌\n嫁娶、开市、开池、开厕、破土\n\n
+ 🔎 值神\n朱雀 · 黑道日 · 凶
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-10-25@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:黄历 · 九月十六
+DESCRIPTION:📅 农历\n九月十六\n\n🗓️ 干支\n丙午年 戊戌
+ 月 壬申日\n\n✅ 宜\n祭祀、祈福、求嗣、斋醮、开光、出
+ 行、嫁娶、求医、治病、动土、破土、入学、起基、扫
+ 舍、竖柱、上梁、开仓、出货财、置产、栽种、牧养、
+ 开生坟、谢土、立碑\n\n❌ 忌\n安门、安床、裁衣、入宅
+ 、安葬\n\n🔎 值神\n金匮 · 黄道日 · 吉
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-10-26@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:黄历 · 九月十七
+DESCRIPTION:📅 农历\n九月十七\n\n🗓️ 干支\n丙午年 戊戌
+ 月 癸酉日\n\n✅ 宜\n嫁娶、裁衣、冠笄、合帐、祭祀、出
+ 行、安床、移徙、塞穴、入殓、破土、移柩、安葬\n\n❌ 
+ 忌\n开市、栽种、置产、词讼、安门、掘井、开光\n\n🔎 
+ 值神\n天德 · 黄道日 · 吉
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-10-27@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:黄历 · 九月十八
+DESCRIPTION:📅 农历\n九月十八\n\n🗓️ 干支\n丙午年 戊戌
+ 月 甲戌日\n\n✅ 宜\n祭祀、造车器、出行、修造、上梁、
+ 盖屋、安门、安床、造畜稠、教牛马\n\n❌ 忌\n出货财、
+ 开仓、动土、破土、安葬、行丧、伐木、开渠、栽种\n\n
+ 🔎 值神\n白虎 · 黑道日 · 凶
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-10-28@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:黄历 · 九月十九
+DESCRIPTION:📅 农历\n九月十九\n\n🗓️ 干支\n丙午年 戊戌
+ 月 乙亥日\n\n✅ 宜\n祭祀、开光、出行、解除、伐木、作
+ 梁、出火、拆卸、入宅、移徙、安床、修造、造畜稠、
+ 扫舍\n\n❌ 忌\n造庙、嫁娶、掘井、栽种、造桥、作灶、
+ 动土\n\n🔎 值神\n玉堂 · 黄道日 · 吉
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-10-29@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:黄历 · 九月二十
+DESCRIPTION:📅 农历\n九月二十\n\n🗓️ 干支\n丙午年 戊戌
+ 月 丙子日\n\n✅ 宜\n纳采、订盟、开市、交易、立券、会
+ 亲友、纳畜、牧养、问名、移徙、解除、开厕、入学、
+ 起基、安床、开仓、出货财、安葬、启钻、入殓、除服
+ 、成服\n\n❌ 忌\n入宅、上梁、斋醮、出火、谢土\n\n🔎 
+ 值神\n天牢 · 黑道日 · 凶
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-10-30@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:黄历 · 九月廿一
+DESCRIPTION:📅 农历\n九月廿一\n\n🗓️ 干支\n丙午年 戊戌
+ 月 丁丑日\n\n✅ 宜\n祭祀、平治道涂、馀事勿取\n\n❌ 忌\
+ n嫁娶、开市\n\n🔎 值神\n玄武 · 黑道日 · 凶
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-10-31@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:黄历 · 九月廿二
+DESCRIPTION:📅 农历\n九月廿二\n\n🗓️ 干支\n丙午年 戊戌
+ 月 戊寅日\n\n✅ 宜\n捕捉、畋猎、馀事勿取\n\n❌ 忌\n开
+ 市、交易、祭祀、入宅、安葬\n\n🔎 值神\n司命 · 黄道
+ 日 · 吉
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-11-01@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:黄历 · 九月廿三
+DESCRIPTION:📅 农历\n九月廿三\n\n🗓️ 干支\n丙午年 戊戌
+ 月 己卯日\n\n✅ 宜\n嫁娶、纳采、订盟、祭祀、祈福、求
+ 嗣、斋醮、开光、安香、出火、造庙、移徙、出行、入
+ 宅、起基、竖柱、上梁、安床、纳畜、捕捉、纳婿、安
+ 葬\n\n❌ 忌\n开市、破土、掘井、合寿木\n\n🔎 值神\n勾
+ 陈 · 黑道日 · 凶
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-11-02@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:黄历 · 九月廿四
+DESCRIPTION:📅 农历\n九月廿四\n\n🗓️ 干支\n丙午年 戊戌
+ 月 庚辰日\n\n✅ 宜\n祭祀、沐浴、解除、破屋、坏垣、馀
+ 事勿取\n\n❌ 忌\n开市、嫁娶\n\n🔎 值神\n青龙 · 黄道日 
+ · 吉
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-11-03@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:黄历 · 九月廿五
+DESCRIPTION:📅 农历\n九月廿五\n\n🗓️ 干支\n丙午年 戊戌
+ 月 辛巳日\n\n✅ 宜\n订盟、纳采、会亲友、交易、立券、
+ 纳财、栽种、纳畜、牧养\n\n❌ 忌\n嫁娶、开市、入宅、
+ 祈福、安葬\n\n🔎 值神\n明堂 · 黄道日 · 吉
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-11-04@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:黄历 · 九月廿六
+DESCRIPTION:📅 农历\n九月廿六\n\n🗓️ 干支\n丙午年 戊戌
+ 月 壬午日\n\n✅ 宜\n造车器、嫁娶、订盟、纳采、会亲友
+ 、祭祀、出行、开市、立券、移徙、入宅、破土、安葬\n
+ \n❌ 忌\n上梁、开光、盖屋、架马、合寿木\n\n🔎 值神\n
+ 天刑 · 黑道日 · 凶
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-11-05@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:黄历 · 九月廿七
+DESCRIPTION:📅 农历\n九月廿七\n\n🗓️ 干支\n丙午年 戊戌
+ 月 癸未日\n\n✅ 宜\n祭祀、作灶、纳财、捕捉、畋猎、馀
+ 事勿取\n\n❌ 忌\n动土、破土、开市、安葬\n\n🔎 值神\n
+ 朱雀 · 黑道日 · 凶
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-11-06@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:黄历 · 九月廿八
+DESCRIPTION:📅 农历\n九月廿八\n\n🗓️ 干支\n丙午年 戊戌
+ 月 甲申日\n\n✅ 宜\n嫁娶、订盟、纳采、祭祀、祈福、出
+ 行、求医、治病、出火、移徙、入宅\n\n❌ 忌\n开市、开
+ 仓、出货财、安床、安门、安葬\n\n🔎 值神\n金匮 · 黄
+ 道日 · 吉
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-11-07@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:黄历 · 九月廿九
+DESCRIPTION:📅 农历\n九月廿九\n\n🗓️ 干支\n丙午年 己亥
+ 月 乙酉日\n\n✅ 宜\n解除、馀事勿取\n\n❌ 忌\n无\n\n🔎 
+ 值神\n朱雀 · 黑道日 · 凶
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-11-08@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:黄历 · 九月三十
+DESCRIPTION:📅 农历\n九月三十\n\n🗓️ 干支\n丙午年 己亥
+ 月 丙戌日\n\n✅ 宜\n安床、祭祀、开池、补垣、入殓、移
+ 柩、破土、启钻\n\n❌ 忌\n入宅、移徙、嫁娶、掘井、作
+ 灶、出火、进人口、开市、开光\n\n🔎 值神\n金匮 · 黄
+ 道日 · 吉
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-11-09@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:黄历 · 十月初一
+DESCRIPTION:📅 农历\n十月初一\n\n🗓️ 干支\n丙午年 己亥
+ 月 丁亥日\n\n✅ 宜\n祭祀、沐浴、馀事勿取\n\n❌ 忌\n无\n
+ \n🔎 值神\n天德 · 黄道日 · 吉
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-11-10@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:黄历 · 十月初二
+DESCRIPTION:📅 农历\n十月初二\n\n🗓️ 干支\n丙午年 己亥
+ 月 戊子日\n\n✅ 宜\n嫁娶、开光、出行、解除、出火、拆
+ 卸、修造、进人口、动土、入宅、移徙、栽种、纳畜、
+ 掘井、安葬、除服、成服\n\n❌ 忌\n置产、安床\n\n🔎 值
+ 神\n白虎 · 黑道日 · 凶
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-11-11@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:黄历 · 十月初三
+DESCRIPTION:📅 农历\n十月初三\n\n🗓️ 干支\n丙午年 己亥
+ 月 己丑日\n\n✅ 宜\n开光、裁衣、安门、会亲友、安床、
+ 结网、理发\n\n❌ 忌\n嫁娶、冠笄、出行、祈福、安葬、
+ 伐木、入宅、移徙、出火、栽种、动土、上梁\n\n🔎 值
+ 神\n玉堂 · 黄道日 · 吉
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-11-12@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:黄历 · 十月初四
+DESCRIPTION:📅 农历\n十月初四\n\n🗓️ 干支\n丙午年 己亥
+ 月 庚寅日\n\n✅ 宜\n嫁娶、开光、出行、出火、拆卸、修
+ 造、动土、入宅、移徙、安床、上梁、开市、交易、立
+ 券、栽种\n\n❌ 忌\n祈福、祭祀、伐木、掘井、作灶、谢
+ 土\n\n🔎 值神\n天牢 · 黑道日 · 凶
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-11-13@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:黄历 · 十月初五
+DESCRIPTION:📅 农历\n十月初五\n\n🗓️ 干支\n丙午年 己亥
+ 月 辛卯日\n\n✅ 宜\n嫁娶、祭祀、祈福、求嗣、开光、出
+ 火、出行、拆卸、开市、交易、立券、挂匾、伐木、入
+ 宅、移徙、安床、安葬\n\n❌ 忌\n栽种、掘井、置产\n\n
+ 🔎 值神\n玄武 · 黑道日 · 凶
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-11-14@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:黄历 · 十月初六
+DESCRIPTION:📅 农历\n十月初六\n\n🗓️ 干支\n丙午年 己亥
+ 月 壬辰日\n\n✅ 宜\n祭祀、理发、针灸、解除、进人口、
+ 整手足甲\n\n❌ 忌\n嫁娶、动土、造船、开池、掘井、出
+ 行、修造、入宅、上梁、移徙、安葬、破土、作灶、开
+ 市\n\n🔎 值神\n司命 · 黄道日 · 吉
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-11-15@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:黄历 · 十月初七
+DESCRIPTION:📅 农历\n十月初七\n\n🗓️ 干支\n丙午年 己亥
+ 月 癸巳日\n\n✅ 宜\n破屋、坏垣、求医、治病、馀事勿取
+ \n\n❌ 忌\n嫁娶、安葬\n\n🔎 值神\n勾陈 · 黑道日 · 凶
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-11-16@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:黄历 · 十月初八
+DESCRIPTION:📅 农历\n十月初八\n\n🗓️ 干支\n丙午年 己亥
+ 月 甲午日\n\n✅ 宜\n纳采、订盟、嫁娶、祭祀、祈福、雕
+ 刻、移徙、开市、入宅、出行、动土、会亲友、入学、
+ 修造、起基、安门、安床、造庙、解除、纳财、开池、
+ 造畜稠、牧养\n\n❌ 忌\n上梁、开仓、出货财、盖屋、造
+ 船\n\n🔎 值神\n青龙 · 黄道日 · 吉
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-11-17@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:黄历 · 十月初九
+DESCRIPTION:📅 农历\n十月初九\n\n🗓️ 干支\n丙午年 己亥
+ 月 乙未日\n\n✅ 宜\n祭祀、祈福、求嗣、开光、解除、伐
+ 木、拆卸、修造、栽种、纳畜、安葬、修坟、立碑\n\n❌ 
+ 忌\n嫁娶、进人口、入宅、移徙、出火、出行\n\n🔎 值神
+ \n明堂 · 黄道日 · 吉
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-11-18@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:黄历 · 十月初十
+DESCRIPTION:📅 农历\n十月初十\n\n🗓️ 干支\n丙午年 己亥
+ 月 丙申日\n\n✅ 宜\n沐浴、扫舍、捕捉、畋猎、解除、塞
+ 穴、馀事勿取\n\n❌ 忌\n嫁娶、入宅、开市、安床、破土
+ 、修坟\n\n🔎 值神\n天刑 · 黑道日 · 凶
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-calendar-2026-11-19@festival-calendar
+DTSTAMP:20260920T062452Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:黄历 · 十月十一
+DESCRIPTION:📅 农历\n十月十一\n\n🗓️ 干支\n丙午年 己亥
+ 月 丁酉日\n\n✅ 宜\n嫁娶、冠笄、祭祀、祈福、求嗣、斋
+ 醮、开光、出行、解除、动土、开市、交易、立券、挂
+ 匾、拆卸、破土\n\n❌ 忌\n伐木、上梁、修造、入殓、理
+ 发、会亲友、入宅、安门、安葬、作灶\n\n🔎 值神\n朱雀
+  · 黑道日 · 凶
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

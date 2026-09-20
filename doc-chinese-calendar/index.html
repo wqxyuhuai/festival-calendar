@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>每日黄历 · Chinese calendar</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #252525; background: #fff; margin: 0; line-height: 1.8; }
+    main { max-width: 760px; padding: 32px 20px 56px; margin: auto; }
+    nav { display: flex; gap: 24px; flex-wrap: wrap; border-bottom: 1px solid #ddd; padding-bottom: 16px; }
+    a { color: #17664a; text-underline-offset: 4px; overflow-wrap: anywhere; }
+    h1 { font-size: 28px; margin: 32px 0 8px; }
+    h2 { font-size: 19px; margin-top: 28px; }
+    .subscribe { display: inline-block; padding: 10px 18px; background: #17664a; color: white; border-radius: 6px; text-decoration: none; }
+    .url { overflow-wrap: anywhere; padding: 12px 0; font-family: ui-monospace, monospace; font-size: 14px; }
+    .detail { border-left: 3px solid #17664a; padding-left: 16px; }
+    .detail p { margin: 16px 0; }
+    footer { border-top: 1px solid #ddd; margin-top: 32px; padding-top: 16px; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <main>
+    <nav aria-label="日历项目">
+      <a href="/festival-calendar/festivals/">节日补充</a>
+      <a href="/festival-calendar/chinese-calendar/" aria-current="page">每日黄历</a>
+    </nav>
+    <h1>每日黄历</h1>
+    <p lang="en">Chinese calendar</p>
+    <p>每天一条全天日历：农历、干支、宜忌和值神。独立订阅，可与节日补充日历搭配使用。</p>
+    <p><a class="subscribe" href="webcal://wqxyuhuai.github.io/festival-calendar/chinese-calendar/daily.ics">订阅每日黄历</a></p>
+    <h2>订阅地址</h2>
+    <p class="url"><a href="https://wqxyuhuai.github.io/festival-calendar/chinese-calendar/daily.ics">https://wqxyuhuai.github.io/festival-calendar/chinese-calendar/daily.ics</a></p>
+    <p>若未自动打开日历，可将上方地址添加为订阅日历。订阅会持续更新，下载后一次性导入的文件不会自动更新。</p>
+    <h2>覆盖范围</h2>
+    <p>过去 7 天、今天及未来 60 天，共 68 天。每天更新，实际同步时间取决于苹果日历的刷新。较早的日期会逐步移出订阅，不作为历史存档。</p>
+    <p>日历文件不设置提醒，也不占用忙碌时间。启用后，覆盖日期会显示日历事件标记；可在日历列表中单独隐藏「每日黄历」。</p>
+    <h2>事件示例 · 2026 年 8 月 21 日</h2>
+    <div class="detail">
+      <p><strong>黄历 · 七月初九</strong></p>
+      <p>📅 农历<br>七月初九</p>
+      <p>🗓️ 干支<br>丙午年 丙申月 丁卯日</p>
+      <p>✅ 宜<br>嫁娶、开光、祭祀、祈福、求嗣、安香、出火、解除、伐木、入宅、移徙、安床、开市、交易、立券、栽种、出行、安葬</p>
+      <p>❌ 忌<br>掘井、理发、作灶、动土、破土、开池</p>
+      <p>🔎 值神<br>朱雀 · 黑道日 · 凶</p>
+    </div>
+    <footer>传统黄历内容仅供民俗参考，不同通书规则可能不同。<br><a href="https://github.com/wqxyuhuai/festival-calendar/tree/main/doc-chinese-calendar">项目与数据说明</a></footer>
+  </main>
+</body>
+</html>

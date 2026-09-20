@@ -2,9 +2,10 @@ import csv
 import os
 import re
 from datetime import datetime, timezone
+from pathlib import Path
 
-CSV_PATH = "data/festivals.csv"
-OUTPUT_PATH = "docs/festival_extra.ics"
+CSV_PATH = Path(__file__).with_name("festivals.csv")
+OUTPUT_PATH = Path(__file__).with_name("festival_extra.ics")
 CALENDAR_NAME = "Festival Supplement for iOS Calendar"
 
 
@@ -163,10 +164,19 @@ def main():
 
     calendar_lines.append("END:VCALENDAR")
 
+    output = "\n".join(calendar_lines) + "\n"
+    # Preserve published bytes when only the build timestamp would change.
+    if OUTPUT_PATH.exists():
+        previous = OUTPUT_PATH.read_text(encoding="utf-8")
+        without_stamps = lambda text: re.sub(r"^DTSTAMP:.*\n", "", text, flags=re.MULTILINE)
+        if without_stamps(previous) == without_stamps(output):
+            print("Festival data unchanged; keeping the published calendar.")
+            return
+
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
 
     with open(OUTPUT_PATH, "w", encoding="utf-8", newline="\n") as f:
-        f.write("\n".join(calendar_lines) + "\n")
+        f.write(output)
 
     print(f"Generated {OUTPUT_PATH} with {event_count} enabled events.")
 

@@ -1,0 +1,73 @@
+name: Build and publish calendars
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '17 19 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: calendar-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      artifact: ${{ steps.artifact.outcome }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build festival calendar
+        run: python festivals/generate.py
+      - name: Build Chinese calendar
+        id: chinese
+        continue-on-error: true
+        run: |
+          python -m pip install -r chinese-calendar/requirements.txt
+          python -m unittest discover -s tests -v
+          python chinese-calendar/generate.py
+      - name: Assemble site using last successful files
+        run: python scripts/build_site.py
+      - name: Save generated calendars
+        run: |
+          git add festivals/festival_extra.ics chinese-calendar/daily.ics chinese-calendar/snapshot.json
+          if ! git diff --cached --quiet; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m 'Update calendar subscriptions'
+            git push origin HEAD:main
+          fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        id: artifact
+        with:
+          path: _site
+      - name: Report Chinese calendar fallback
+        if: steps.chinese.outcome == 'failure'
+        run: |
+          echo '### Chinese calendar generation failed; retained the last successful file.' >> "$GITHUB_STEP_SUMMARY"
+          echo '::warning::Chinese calendar generation failed. Check coverage before the retained calendar expires.'
+          exit 1
+
+  deploy:
+    needs: build
+    if: ${{ always() && needs.build.outputs.artifact == 'success' }}
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
