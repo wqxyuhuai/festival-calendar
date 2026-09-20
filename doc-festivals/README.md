@@ -33,9 +33,9 @@ webcal://wqxyuhuai.github.io/festival-calendar/festival_extra.ics
 ## 文件结构
 
 ```text
-festivals/festivals.csv         # 平时只需要维护这个表格
-festivals/generate.py           # 自动把 CSV 生成 .ics
-festivals/festival_extra.ics    # 发布到原网址 /festival_extra.ics
+proj-festivals/festivals.csv    # 平时只需要维护这个表格
+proj-festivals/generate.py      # 自动把 CSV 生成 .ics
+proj-festivals/festival_extra.ics  # 发布到原网址 /festival_extra.ics
 doc-festivals/                 # 节日文档与订阅页面
 .github/workflows/publish-calendars.yml  # 自动生成与发布
 ```

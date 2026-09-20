@@ -12,8 +12,8 @@
 ## 目录
 
 ```text
-festivals/                 节日数据、生成器、订阅文件
-chinese-calendar/          黄历配置、生成器、订阅文件和数据快照
+proj-festivals/            节日数据、生成器、订阅文件
+proj-chinese-calendar/     黄历配置、生成器、订阅文件和数据快照
 doc-festivals/             节日文档与订阅页面
 doc-chinese-calendar/      黄历文档与订阅页面
 scripts/                  共用网站组装工具
@@ -29,10 +29,10 @@ tests/                    日期、ICS 与发布兼容性测试
 需要 Python 3.12：
 
 ```sh
-python -m pip install -r chinese-calendar/requirements.txt
-python festivals/generate.py
+python -m pip install -r proj-chinese-calendar/requirements.txt
+python proj-festivals/generate.py
 python -m unittest discover -s tests -v
-python chinese-calendar/generate.py
+python proj-chinese-calendar/generate.py
 python scripts/build_site.py
 ```
 

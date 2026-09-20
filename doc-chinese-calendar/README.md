@@ -15,10 +15,10 @@
 
 ## 文件与更新
 
-- `chinese-calendar/config.json`：订阅名称和前后天数。
-- `chinese-calendar/requirements.txt`：固定数据源版本。
-- `chinese-calendar/daily.ics`：上次成功生成的订阅。
-- `chinese-calendar/snapshot.json`：上次计算的结构化数据、来源版本、生成时间和覆盖范围，仅用于维护。
+- `proj-chinese-calendar/config.json`：订阅名称和前后天数。
+- `proj-chinese-calendar/requirements.txt`：固定数据源版本。
+- `proj-chinese-calendar/daily.ics`：上次成功生成的订阅。
+- `proj-chinese-calendar/snapshot.json`：上次计算的结构化数据、来源版本、生成时间和覆盖范围，仅用于维护。
 
 生成过程先完成全部日期计算，再替换 ICS；失败时保留已有订阅文件。完整发布由 `.github/workflows/publish-calendars.yml` 执行，先测试再生成，再组装 Pages。黄历失败时依然发布上次成功文件和节日，工作流保留失败信号供维护者处理。不要自动升级依赖；升级后先复核样本与生成差异。
 
@@ -27,7 +27,7 @@ ICS 使用 CRLF、UTF-8 按 75 字节折行、日期型全天事件和独占的�
 ## 指定日期复现
 
 ```sh
-python chinese-calendar/generate.py --today 2026-09-20 --output-dir _site/sample
+python proj-chinese-calendar/generate.py --today 2026-09-20 --output-dir _site/sample
 ```
 
 订阅滚动移除过期记录，不提供永久历史归档。启用后覆盖日期会出现事件标记，可在苹果日历中隐藏此订阅。实际 iPhone 排版和刷新需要在设备上验收。

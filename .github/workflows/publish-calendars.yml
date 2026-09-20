@@ -29,19 +29,19 @@ jobs:
         with:
           python-version: '3.12'
       - name: Build festival calendar
-        run: python festivals/generate.py
+        run: python proj-festivals/generate.py
       - name: Build Chinese calendar
         id: chinese
         continue-on-error: true
         run: |
-          python -m pip install -r chinese-calendar/requirements.txt
+          python -m pip install -r proj-chinese-calendar/requirements.txt
           python -m unittest discover -s tests -v
-          python chinese-calendar/generate.py
+          python proj-chinese-calendar/generate.py
       - name: Assemble site using last successful files
         run: python scripts/build_site.py
       - name: Save generated calendars
         run: |
-          git add festivals/festival_extra.ics chinese-calendar/daily.ics chinese-calendar/snapshot.json
+          git add proj-festivals/festival_extra.ics proj-chinese-calendar/daily.ics proj-chinese-calendar/snapshot.json
           if ! git diff --cached --quiet; then
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'

@@ -16,8 +16,8 @@ def module(name, path):
     return result
 
 
-chinese = module("chinese", "chinese-calendar/generate.py")
-festivals = module("festivals", "festivals/generate.py")
+chinese = module("chinese", "proj-chinese-calendar/generate.py")
+festivals = module("festivals", "proj-festivals/generate.py")
 site = module("site_builder", "scripts/build_site.py")
 
 
