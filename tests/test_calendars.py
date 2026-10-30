@@ -2,6 +2,7 @@ import importlib.util
 import json
 import tempfile
 import unittest
+import csv
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from unittest.mock import patch
@@ -82,6 +83,37 @@ class CalendarTests(unittest.TestCase):
             with patch.object(festivals, "OUTPUT_PATH", output):
                 festivals.main()
             self.assertEqual(output.read_bytes(), original)
+
+    def test_festival_scope_for_xiaonian_and_war_victory(self):
+        with (ROOT / "proj-festivals/festivals.csv").open(encoding="utf-8-sig", newline="") as file:
+            rows = list(csv.DictReader(file))
+        by_id = {row["id"]: row for row in rows}
+
+        victory = by_id["war-victory-day"]
+        self.assertEqual(
+            (victory["name"], victory["date"], victory["repeat"], victory["category"]),
+            (
+                "中国人民抗日战争胜利纪念日 Victory Day of the Chinese People's War of Resistance Against Japanese Aggression",
+                "2026/9/3",
+                "yearly",
+                "commemoration",
+            ),
+        )
+        self.assertEqual(victory["enabled"], "TRUE")
+
+        for prefix in ("xiaonian-north-lunar", "xiaonian-south-lunar"):
+            entries = [row for row in rows if row["id"].startswith(prefix)]
+            self.assertEqual(len(entries), 275)
+            self.assertTrue(all(row["enabled"] == "TRUE" for row in entries))
+            self.assertTrue(all(row["category"] == "lunar" for row in entries))
+
+        self.assertFalse(
+            any(
+                row["enabled"] == "TRUE"
+                and row["id"].startswith(("spring-festival-lunar", "chuxi-lunar"))
+                for row in rows
+            )
+        )
 
     def test_site_keeps_old_subscription_path(self):
         with tempfile.TemporaryDirectory() as temp:
