@@ -84,7 +84,7 @@ class CalendarTests(unittest.TestCase):
                 festivals.main()
             self.assertEqual(output.read_bytes(), original)
 
-    def test_festival_scope_for_xiaonian_and_war_victory(self):
+    def test_festival_scope_for_traditional_days_and_war_victory(self):
         with (ROOT / "proj-festivals/festivals.csv").open(encoding="utf-8-sig", newline="") as file:
             rows = list(csv.DictReader(file))
         by_id = {row["id"]: row for row in rows}
@@ -106,6 +106,11 @@ class CalendarTests(unittest.TestCase):
             self.assertEqual(len(entries), 275)
             self.assertTrue(all(row["enabled"] == "TRUE" for row in entries))
             self.assertTrue(all(row["category"] == "lunar" for row in entries))
+
+        laba_entries = [row for row in rows if row["id"].startswith("laba-lunar")]
+        self.assertEqual(len(laba_entries), 275)
+        self.assertTrue(all(row["enabled"] == "TRUE" for row in laba_entries))
+        self.assertTrue(all(row["category"] == "lunar" for row in laba_entries))
 
         self.assertFalse(
             any(
