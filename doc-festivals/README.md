@@ -2,6 +2,8 @@
 
 这是一个给 Apple Calendar / iPhone 日历订阅用的节日补充日历。
 
+同时提供中英双语版和纯中文版。两版使用同一份节日数据生成，后续更新保持同步。
+
 设计目的：
 
 - 保留苹果自带「中国节假日」日历，用来显示放假、调休、补班。
@@ -15,18 +17,25 @@
 
 ### 手动订阅链接
 
-复制下面链接，在 iPhone / Apple Calendar 中添加为「订阅日历」：
+| 版本 | 订阅地址 |
+| --- | --- |
+| 中英双语 | `https://wqxyuhuai.github.io/festival-calendar/festival_extra.ics` |
+| 纯中文 | `https://wqxyuhuai.github.io/festival-calendar/festival_zh.ics` |
 
-```text
-https://wqxyuhuai.github.io/festival-calendar/festival_extra.ics
-```
+复制对应链接，在 iPhone / Apple Calendar 中添加为「订阅日历」。
 
 ### 尝试一键订阅
 
-如果你正在使用 iPhone 或 Mac，可以尝试打开下面这个链接：
+中英双语：
 ```text
 webcal://wqxyuhuai.github.io/festival-calendar/festival_extra.ics
 ```
+
+纯中文：
+```text
+webcal://wqxyuhuai.github.io/festival-calendar/festival_zh.ics
+```
+
 如果没有自动打开日历，请使用上面的 HTTPS 链接手动添加。
 
 
@@ -35,10 +44,13 @@ webcal://wqxyuhuai.github.io/festival-calendar/festival_extra.ics
 ```text
 proj-festivals/festivals.csv    # 平时只需要维护这个表格
 proj-festivals/generate.py      # 自动把 CSV 生成 .ics
-proj-festivals/festival_extra.ics  # 发布到原网址 /festival_extra.ics
+proj-festivals/festival_extra.ics  # 中英双语订阅
+proj-festivals/festival_zh.ics     # 纯中文订阅
 doc-festivals/                 # 节日文档与订阅页面
 .github/workflows/publish-calendars.yml  # 自动生成与发布
 ```
+
+`name` 字段采用「中文名称 + 英文名称」格式。生成器会为纯中文订阅去掉英文后缀，并将详情中的英文品牌和缩写替换为中文。
 
 
 ## CSV 字段说明

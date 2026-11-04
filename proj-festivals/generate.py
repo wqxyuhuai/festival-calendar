@@ -7,6 +7,8 @@ from pathlib import Path
 CSV_PATH = Path(__file__).with_name("festivals.csv")
 OUTPUT_PATH = Path(__file__).with_name("festival_extra.ics")
 CALENDAR_NAME = "Festival Supplement for iOS Calendar"
+ZH_OUTPUT_PATH = Path(__file__).with_name("festival_zh.ics")
+ZH_CALENDAR_NAME = "节日补充日历（纯中文）"
 
 
 def escape_ics_text(value: str) -> str:
@@ -23,6 +25,18 @@ def escape_ics_text(value: str) -> str:
 
 def normalize_bool(value: str) -> bool:
     return str(value).strip().lower() in ["true", "1", "yes", "y", "on"]
+
+
+def chinese_summary(value: str) -> str:
+    """Remove the English suffix from a bilingual event title."""
+    match = re.search(r"\s+[A-Za-z]", value)
+    if match:
+        value = value[:match.start()]
+    return value.strip()
+
+
+def chinese_description(value: str) -> str:
+    return value.replace("Apple", "苹果").replace("ESG", "环境、社会及治理")
 
 
 def normalize_date(value: str, row_number: int, event_id: str) -> str:
@@ -78,7 +92,7 @@ def read_rows():
     return rows
 
 
-def build_event(row, row_number):
+def build_event(row, row_number, chinese_only=False):
     enabled = normalize_bool(row.get("enabled", ""))
     if not enabled:
         return None
@@ -99,7 +113,12 @@ def build_event(row, row_number):
     if not date:
         raise ValueError(f"Missing date at row {row_number}, id={event_id}.")
 
+    if chinese_only:
+        name = chinese_summary(name)
+        note = chinese_description(note)
+
     dtstart = normalize_date(date, row_number, event_id)
+    uid_domain = "festival-calendar-zh" if chinese_only else "festival-calendar"
 
     description_parts = []
 
@@ -113,7 +132,7 @@ def build_event(row, row_number):
 
     lines = [
         "BEGIN:VEVENT",
-        f"UID:{escape_ics_text(event_id)}@festival-calendar",
+        f"UID:{escape_ics_text(event_id)}@{uid_domain}",
         f"DTSTAMP:{datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%SZ')}",
         f"DTSTART;VALUE=DATE:{dtstart}",
         f"SUMMARY:{escape_ics_text(name)}",
@@ -141,44 +160,55 @@ def build_event(row, row_number):
     return lines
 
 
-def main():
-    rows = read_rows()
-
+def render_calendar(rows, calendar_name, chinese_only=False):
     calendar_lines = [
         "BEGIN:VCALENDAR",
         "VERSION:2.0",
         "PRODID:-//WQXYUHUAI//Festival Supplement Calendar//CN",
         "CALSCALE:GREGORIAN",
         "METHOD:PUBLISH",
-        f"X-WR-CALNAME:{escape_ics_text(CALENDAR_NAME)}",
+        f"X-WR-CALNAME:{escape_ics_text(calendar_name)}",
         "X-WR-TIMEZONE:Asia/Shanghai",
     ]
 
     event_count = 0
 
     for index, row in enumerate(rows, start=2):
-        event = build_event(row, index)
+        event = build_event(row, index, chinese_only=chinese_only)
         if event:
             calendar_lines.extend(event)
             event_count += 1
 
     calendar_lines.append("END:VCALENDAR")
+    return "\n".join(calendar_lines) + "\n", event_count
 
-    output = "\n".join(calendar_lines) + "\n"
+
+def write_calendar(output_path, output, event_count):
     # Preserve published bytes when only the build timestamp would change.
-    if OUTPUT_PATH.exists():
-        previous = OUTPUT_PATH.read_text(encoding="utf-8")
+    if output_path.exists():
+        previous = output_path.read_text(encoding="utf-8")
         without_stamps = lambda text: re.sub(r"^DTSTAMP:.*\n", "", text, flags=re.MULTILINE)
         if without_stamps(previous) == without_stamps(output):
-            print("Festival data unchanged; keeping the published calendar.")
+            print(f"{output_path.name} unchanged; keeping the published calendar.")
             return
 
-    os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
+    os.makedirs(output_path.parent, exist_ok=True)
 
-    with open(OUTPUT_PATH, "w", encoding="utf-8", newline="\n") as f:
+    with open(output_path, "w", encoding="utf-8", newline="\n") as f:
         f.write(output)
 
-    print(f"Generated {OUTPUT_PATH} with {event_count} enabled events.")
+    print(f"Generated {output_path} with {event_count} enabled events.")
+
+
+def main():
+    rows = read_rows()
+
+    for output_path, calendar_name, chinese_only in (
+        (OUTPUT_PATH, CALENDAR_NAME, False),
+        (ZH_OUTPUT_PATH, ZH_CALENDAR_NAME, True),
+    ):
+        output, event_count = render_calendar(rows, calendar_name, chinese_only=chinese_only)
+        write_calendar(output_path, output, event_count)
 
 
 if __name__ == "__main__":

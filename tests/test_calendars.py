@@ -1,8 +1,9 @@
+import csv
 import importlib.util
 import json
+import re
 import tempfile
 import unittest
-import csv
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from unittest.mock import patch
@@ -76,13 +77,39 @@ class CalendarTests(unittest.TestCase):
             self.assertEqual((target / "daily.ics").read_bytes(), b"last successful file")
 
     def test_festival_generation_preserves_published_bytes(self):
-        original = festivals.OUTPUT_PATH.read_bytes()
+        originals = {
+            "festival_extra.ics": festivals.OUTPUT_PATH.read_bytes(),
+            "festival_zh.ics": festivals.ZH_OUTPUT_PATH.read_bytes(),
+        }
         with tempfile.TemporaryDirectory() as temp:
-            output = Path(temp) / "festival.ics"
-            output.write_bytes(original)
-            with patch.object(festivals, "OUTPUT_PATH", output):
+            outputs = {name: Path(temp) / name for name in originals}
+            for name, output in outputs.items():
+                output.write_bytes(originals[name])
+            with (
+                patch.object(festivals, "OUTPUT_PATH", outputs["festival_extra.ics"]),
+                patch.object(festivals, "ZH_OUTPUT_PATH", outputs["festival_zh.ics"]),
+            ):
                 festivals.main()
-            self.assertEqual(output.read_bytes(), original)
+            for name, output in outputs.items():
+                self.assertEqual(output.read_bytes(), originals[name])
+
+    def test_pure_chinese_festival_calendar(self):
+        bilingual = festivals.OUTPUT_PATH.read_text(encoding="utf-8")
+        chinese_only = festivals.ZH_OUTPUT_PATH.read_text(encoding="utf-8")
+        self.assertEqual(
+            bilingual.count("BEGIN:VEVENT"),
+            chinese_only.count("BEGIN:VEVENT"),
+        )
+        self.assertIn("X-WR-CALNAME:节日补充日历（纯中文）", chinese_only)
+
+        unfolded = chinese_only.replace("\n ", "")
+        for line in unfolded.splitlines():
+            if line.startswith(("SUMMARY:", "DESCRIPTION:")):
+                self.assertNotRegex(line.split(":", 1)[1], r"[A-Za-z]")
+
+        chinese_uids = re.findall(r"^UID:(.*)$", unfolded, re.MULTILINE)
+        self.assertTrue(chinese_uids)
+        self.assertTrue(all(uid.endswith("@festival-calendar-zh") for uid in chinese_uids))
 
     def test_festival_scope_for_traditional_days_and_war_victory(self):
         with (ROOT / "proj-festivals/festivals.csv").open(encoding="utf-8-sig", newline="") as file:
@@ -124,6 +151,7 @@ class CalendarTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temp:
             site.build_site(Path(temp))
             self.assertEqual((Path(temp) / "festival_extra.ics").read_bytes(), festivals.OUTPUT_PATH.read_bytes())
+            self.assertEqual((Path(temp) / "festival_zh.ics").read_bytes(), festivals.ZH_OUTPUT_PATH.read_bytes())
             self.assertTrue((Path(temp) / "chinese-calendar/daily.ics").is_file())
             self.assertTrue((Path(temp) / "festivals/index.html").is_file())
 

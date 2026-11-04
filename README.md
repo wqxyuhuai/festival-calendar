@@ -1,13 +1,15 @@
 # 苹果日历补充订阅
 
-两个独立订阅：节日补充与每日黄历（Chinese calendar）。可以单独订阅，也可以同时使用。
+三个独立订阅：节日补充（中英双语）、节日补充（纯中文）与每日黄历（Chinese calendar）。可以单独订阅，也可以同时使用。
 
 | 日历 | 订阅地址 |
 | --- | --- |
-| 节日补充 | https://wqxyuhuai.github.io/festival-calendar/festival_extra.ics |
+| 节日补充（中英双语） | https://wqxyuhuai.github.io/festival-calendar/festival_extra.ics |
+| 节日补充（纯中文） | https://wqxyuhuai.github.io/festival-calendar/festival_zh.ics |
 | 每日黄历 | https://wqxyuhuai.github.io/festival-calendar/chinese-calendar/daily.ics |
 
 原节日订阅地址永久保留，已订阅用户无需重新添加。请以「订阅日历」方式添加，下载导入不能持续更新。
+中英双语和纯中文节日订阅由同一份节日数据同步生成，后续更新无需分别维护。
 
 ## 目录
 
@@ -38,4 +40,4 @@ python scripts/build_site.py
 
 `_site/` 为临时发布目录，不提交到仓库。GitHub Pages 的构建来源设置为 **GitHub Actions**。发布流程每天北京时间 03:17 定时运行，也可手动触发；GitHub 定时任务可能延迟。公开仓库长期无活动时 GitHub 可能暂停定时任务，需留意 Actions 状态。
 
-节日源数据没有变化时不重写订阅文件。发布脚本将其原样复制到网站根目录的 `festival_extra.ics`。黄历失败时使用上次成功版本，并让工作流报告失败；节日仍可发布。关注失败通知，避免保留版本超过未来 60 天的覆盖范围。
+节日源数据没有变化时不重写订阅文件。发布脚本将其原样复制到网站根目录的 `festival_extra.ics` 和 `festival_zh.ics`。黄历失败时使用上次成功版本，并让工作流报告失败；节日仍可发布。关注失败通知，避免保留版本超过未来 60 天的覆盖范围。
